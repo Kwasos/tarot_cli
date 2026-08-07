@@ -11,3 +11,6 @@ While in project folder:
 `git clone https://github.com/Kwasos/tarot_cli`
 
 `cd tarot_cli`
+
+## License
+[MIT](https://opensource.org/license/MIT)
