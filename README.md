@@ -4,8 +4,10 @@ Cards data in tarot.json is originally from https://github.com/metabismuth/tarot
 
 ## Usage
 While in project folder:
+
 `python3 main.py`
 
 ## Instalation
 `git clone https://github.com/Kwasos/tarot_cli`
+
 `cd tarot_cli`
