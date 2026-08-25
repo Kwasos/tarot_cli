@@ -1,6 +1,20 @@
 import random
-import json
+from json import JSONDecoder
 import time
+
+commands = {
+    "series": "draw a selected number of cards from the same deck, then shuffle",
+    "draw": "draw a single card from the deck",
+    "shuffle": "return all cards to the deck",
+    "daily": "deterministic selection of a random card based on the current date",
+    "help": "print a list of avaiable commands",
+    "quit": "closes the program",
+}
+
+
+def help() -> None:
+    for command in commands:
+        print(f"COMMAND: {command}\nDESCRIPTION: {commands[command]}\n")
 
 
 # Load json card data
@@ -15,7 +29,7 @@ def create_deck() -> list[dict]:
     cards = get_cards()
 
     # Using JSONDecoder to parse JSON
-    decoder = json.JSONDecoder()
+    decoder = JSONDecoder()
     cards = decoder.decode(cards)
 
     # Create and add cards to the deck
