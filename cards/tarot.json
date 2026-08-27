@@ -1,473 +1,1487 @@
 {
-  "description": "tarot cards and basic information about them",
+  "description": "tarot cards, basic attributes and meanings",
   "cards": [
     {
       "name": "The Fool",
       "number": "0",
       "arcana": "Major Arcana",
-      "suit": null
+      "suit": null,
+      "nouns": [
+        "journey",
+        "innocence",
+        "folly",
+        "spirit"
+      ],
+      "adjectives": [
+        "reckless",
+        "innocent",
+        "audacious",
+        "eccentric"
+      ],
+      "meaning": "A leap into the unknown, guided by innocence rather than calculation. It marks a fresh start, though it warns of folly when caution is abandoned entirely."
     },
     {
       "name": "The Magician",
       "number": "1",
       "arcana": "Major Arcana",
-      "suit": null
+      "suit": null,
+      "nouns": [
+        "will",
+        "skill",
+        "power",
+        "craft"
+      ],
+      "adjectives": [
+        "skillful",
+        "confident",
+        "resourceful",
+        "cunning"
+      ],
+      "meaning": "Mastery of will and skill, using the tools at hand to turn an idea into reality. It represents resourcefulness and the power to begin something new through focused intent."
     },
     {
       "name": "The High Priestess",
       "number": "2",
       "arcana": "Major Arcana",
-      "suit": null
+      "suit": null,
+      "nouns": [
+        "mystery",
+        "intuition",
+        "secrecy",
+        "wisdom"
+      ],
+      "adjectives": [
+        "secretive",
+        "mysterious",
+        "intuitive",
+        "hidden"
+      ],
+      "meaning": "Guardian of hidden knowledge and intuition not yet spoken aloud. She points toward mystery and truths that must be sensed rather than reasoned out."
     },
     {
       "name": "The Empress",
       "number": "3",
       "arcana": "Major Arcana",
-      "suit": null
+      "suit": null,
+      "nouns": [
+        "fertility",
+        "beauty",
+        "abundance",
+        "nature"
+      ],
+      "adjectives": [
+        "fruitful",
+        "nurturing",
+        "sensuous",
+        "abundant"
+      ],
+      "meaning": "Abundance, fertility, and creative growth flowing freely into the world. She represents nurturing, sensual pleasure, and the natural fruitfulness of life."
     },
     {
       "name": "The Emperor",
       "number": "4",
       "arcana": "Major Arcana",
-      "suit": null
+      "suit": null,
+      "nouns": [
+        "authority",
+        "power",
+        "leadership",
+        "structure"
+      ],
+      "adjectives": [
+        "commanding",
+        "authoritative",
+        "ambitious",
+        "stern"
+      ],
+      "meaning": "Authority, structure, and the discipline needed to build lasting order. He embodies ambition and firm leadership, though carried too far it hardens into rigidity."
     },
     {
       "name": "The Hierophant",
       "number": "5",
       "arcana": "Major Arcana",
-      "suit": null
+      "suit": null,
+      "nouns": [
+        "tradition",
+        "doctrine",
+        "guidance",
+        "faith"
+      ],
+      "adjectives": [
+        "traditional",
+        "orthodox",
+        "wise",
+        "ceremonial"
+      ],
+      "meaning": "Tradition, doctrine, and the guidance passed down through established institutions. He represents conventional wisdom and the comfort of shared belief and ritual."
     },
     {
       "name": "The Lovers",
       "number": "6",
       "arcana": "Major Arcana",
-      "suit": null
+      "suit": null,
+      "nouns": [
+        "love",
+        "union",
+        "choice",
+        "harmony"
+      ],
+      "adjectives": [
+        "harmonious",
+        "attractive",
+        "intimate",
+        "united"
+      ],
+      "meaning": "Attraction and a meaningful choice between two paths. It signifies harmony between people, or between one's inner desires and outer life."
     },
     {
       "name": "The Chariot",
       "number": "7",
       "arcana": "Major Arcana",
-      "suit": null
+      "suit": null,
+      "nouns": [
+        "triumph",
+        "willpower",
+        "victory",
+        "control"
+      ],
+      "adjectives": [
+        "victorious",
+        "determined",
+        "disciplined",
+        "triumphant"
+      ],
+      "meaning": "Triumph achieved through willpower and the disciplined control of opposing forces. It represents victory, determination, and forward momentum toward a goal."
     },
     {
       "name": "Strength",
       "number": "8",
       "arcana": "Major Arcana",
-      "suit": null
+      "suit": null,
+      "nouns": [
+        "courage",
+        "fortitude",
+        "control",
+        "compassion"
+      ],
+      "adjectives": [
+        "courageous",
+        "gentle",
+        "resilient",
+        "steadfast"
+      ],
+      "meaning": "Quiet courage that tames raw force through patience and compassion rather than domination. It represents inner fortitude and the gentle mastery of one's own passions."
     },
     {
       "name": "The Hermit",
       "number": "9",
       "arcana": "Major Arcana",
-      "suit": null
+      "suit": null,
+      "nouns": [
+        "solitude",
+        "guidance",
+        "wisdom",
+        "introspection"
+      ],
+      "adjectives": [
+        "solitary",
+        "contemplative",
+        "wise",
+        "illuminating"
+      ],
+      "meaning": "Withdrawal from the world in search of inner wisdom and guidance. His lantern offers light to others even as he walks a solitary path."
     },
     {
       "name": "Wheel of Fortune",
       "number": "10",
       "arcana": "Major Arcana",
-      "suit": null
+      "suit": null,
+      "nouns": [
+        "fortune",
+        "cycle",
+        "fate",
+        "change"
+      ],
+      "adjectives": [
+        "fortunate",
+        "cyclical",
+        "unpredictable",
+        "turning"
+      ],
+      "meaning": "The turning of fate, bringing sudden change for better or worse. It is a reminder that fortune is cyclical, and success should be held without excessive pride."
     },
     {
       "name": "Justice",
       "number": "11",
       "arcana": "Major Arcana",
-      "suit": null
+      "suit": null,
+      "nouns": [
+        "justice",
+        "balance",
+        "law",
+        "truth"
+      ],
+      "adjectives": [
+        "fair",
+        "balanced",
+        "impartial",
+        "lawful"
+      ],
+      "meaning": "Balance, fairness, and the consequences that follow from one's actions. It favors honest dealings, legal matters, and impartial judgment."
     },
     {
       "name": "The Hanged Man",
       "number": "12",
       "arcana": "Major Arcana",
-      "suit": null
+      "suit": null,
+      "nouns": [
+        "sacrifice",
+        "surrender",
+        "suspension",
+        "perspective"
+      ],
+      "adjectives": [
+        "suspended",
+        "surrendered",
+        "patient",
+        "reflective"
+      ],
+      "meaning": "Suspension and surrender, gaining a new perspective through sacrifice rather than struggle. It represents a pause of enforced patience that leads to insight."
     },
     {
       "name": "Death",
       "number": "13",
       "arcana": "Major Arcana",
-      "suit": null
+      "suit": null,
+      "nouns": [
+        "transformation",
+        "ending",
+        "change",
+        "renewal"
+      ],
+      "adjectives": [
+        "transformative",
+        "inevitable",
+        "final",
+        "transitional"
+      ],
+      "meaning": "The end of one state of being and the transformation that clears the way for renewal. It rarely means literal death, but rather profound, irreversible change."
     },
     {
       "name": "Temperance",
       "number": "14",
       "arcana": "Major Arcana",
-      "suit": null
+      "suit": null,
+      "nouns": [
+        "balance",
+        "moderation",
+        "harmony",
+        "synthesis"
+      ],
+      "adjectives": [
+        "harmonious",
+        "moderate",
+        "balanced",
+        "patient"
+      ],
+      "meaning": "The patient blending of opposites into a harmonious whole. It represents moderation, careful management, and gradual reconciliation of competing forces."
     },
     {
       "name": "The Devil",
       "number": "15",
       "arcana": "Major Arcana",
-      "suit": null
+      "suit": null,
+      "nouns": [
+        "bondage",
+        "temptation",
+        "materialism",
+        "obsession"
+      ],
+      "adjectives": [
+        "bound",
+        "materialistic",
+        "obsessive",
+        "restrictive"
+      ],
+      "meaning": "Bondage to material desire, temptation, and self-imposed limitation. It represents obsession and the chains people accept when they mistake attachment for necessity."
     },
     {
       "name": "The Tower",
       "number": "16",
       "arcana": "Major Arcana",
-      "suit": null
+      "suit": null,
+      "nouns": [
+        "upheaval",
+        "ruin",
+        "collapse",
+        "revelation"
+      ],
+      "adjectives": [
+        "sudden",
+        "catastrophic",
+        "disruptive",
+        "shattering"
+      ],
+      "meaning": "Sudden upheaval that shatters false structures built on unstable foundations. Though disruptive, it clears away illusion and forces a necessary reckoning."
     },
     {
       "name": "The Star",
       "number": "17",
       "arcana": "Major Arcana",
-      "suit": null
+      "suit": null,
+      "nouns": [
+        "hope",
+        "inspiration",
+        "renewal",
+        "faith"
+      ],
+      "adjectives": [
+        "hopeful",
+        "serene",
+        "inspiring",
+        "radiant"
+      ],
+      "meaning": "Hope, healing, and quiet inspiration after hardship. It represents faith in the future and a renewed sense of purpose."
     },
     {
       "name": "The Moon",
       "number": "18",
       "arcana": "Major Arcana",
-      "suit": null
+      "suit": null,
+      "nouns": [
+        "illusion",
+        "intuition",
+        "uncertainty",
+        "imagination"
+      ],
+      "adjectives": [
+        "illusory",
+        "mysterious",
+        "uncertain",
+        "dreamlike"
+      ],
+      "meaning": "Illusion, uncertainty, and the murky realm of imagination and fear. It warns of deception and urges caution where the truth is not yet clear."
     },
     {
       "name": "The Sun",
       "number": "19",
       "arcana": "Major Arcana",
-      "suit": null
+      "suit": null,
+      "nouns": [
+        "joy",
+        "vitality",
+        "success",
+        "clarity"
+      ],
+      "adjectives": [
+        "radiant",
+        "joyful",
+        "vital",
+        "triumphant"
+      ],
+      "meaning": "Vitality, joy, and clear, radiant success. It represents happiness, confidence, and the fulfillment of one's hopes."
     },
     {
       "name": "Judgement",
       "number": "20",
       "arcana": "Major Arcana",
-      "suit": null
+      "suit": null,
+      "nouns": [
+        "awakening",
+        "renewal",
+        "judgment",
+        "reckoning"
+      ],
+      "adjectives": [
+        "final",
+        "redemptive",
+        "awakening",
+        "transformative"
+      ],
+      "meaning": "A moment of reckoning and awakening that calls for honest self-evaluation. It represents renewal, absolution, and a decisive turning point."
     },
     {
       "name": "The World",
       "number": "21",
       "arcana": "Major Arcana",
-      "suit": null
+      "suit": null,
+      "nouns": [
+        "completion",
+        "fulfillment",
+        "wholeness",
+        "achievement"
+      ],
+      "adjectives": [
+        "complete",
+        "accomplished",
+        "triumphant",
+        "whole"
+      ],
+      "meaning": "Completion, wholeness, and the successful conclusion of a long cycle. It represents fulfillment and the reward earned through sustained effort."
     },
     {
       "name": "Ace of Cups",
       "number": "1",
       "arcana": "Minor Arcana",
-      "suit": "Cups"
+      "suit": "Cups",
+      "nouns": [
+        "love",
+        "joy",
+        "abundance",
+        "emotion"
+      ],
+      "adjectives": [
+        "joyful",
+        "abundant",
+        "loving",
+        "fruitful"
+      ],
+      "meaning": "The overflowing source of love, joy, and emotional fulfillment. It marks the beginning of new feelings, pleasure, or a fruitful relationship."
     },
     {
       "name": "Two of Cups",
       "number": "2",
       "arcana": "Minor Arcana",
-      "suit": "Cups"
+      "suit": "Cups",
+      "nouns": [
+        "partnership",
+        "connection",
+        "harmony",
+        "affection"
+      ],
+      "adjectives": [
+        "harmonious",
+        "reciprocal",
+        "affectionate",
+        "united"
+      ],
+      "meaning": "Mutual attraction and harmony between two people. It represents partnership, reciprocity, and emotional connection."
     },
     {
       "name": "Three of Cups",
       "number": "3",
       "arcana": "Minor Arcana",
-      "suit": "Cups"
+      "suit": "Cups",
+      "nouns": [
+        "celebration",
+        "friendship",
+        "abundance",
+        "merriment"
+      ],
+      "adjectives": [
+        "festive",
+        "joyful",
+        "sociable",
+        "abundant"
+      ],
+      "meaning": "Joyful celebration shared among friends. It represents abundance, friendship, and communal happiness."
     },
     {
       "name": "Four of Cups",
       "number": "4",
       "arcana": "Minor Arcana",
-      "suit": "Cups"
+      "suit": "Cups",
+      "nouns": [
+        "apathy",
+        "contemplation",
+        "stagnation",
+        "reevaluation"
+      ],
+      "adjectives": [
+        "contemplative",
+        "listless",
+        "discontented",
+        "stagnant"
+      ],
+      "meaning": "A restless dissatisfaction despite apparent comfort. It represents apathy or contemplation, turning away from present pleasures in search of something deeper."
     },
     {
       "name": "Five of Cups",
       "number": "5",
       "arcana": "Minor Arcana",
-      "suit": "Cups"
+      "suit": "Cups",
+      "nouns": [
+        "loss",
+        "regret",
+        "disappointment",
+        "grief"
+      ],
+      "adjectives": [
+        "regretful",
+        "sorrowful",
+        "disappointed",
+        "mournful"
+      ],
+      "meaning": "Grief over what has been lost, while overlooking what still remains. It represents disappointment, regret, and mourning."
     },
     {
       "name": "Six of Cups",
       "number": "6",
       "arcana": "Minor Arcana",
-      "suit": "Cups"
+      "suit": "Cups",
+      "nouns": [
+        "nostalgia",
+        "innocence",
+        "memory",
+        "goodwill"
+      ],
+      "adjectives": [
+        "nostalgic",
+        "innocent",
+        "sentimental",
+        "generous"
+      ],
+      "meaning": "Nostalgia for simpler, more innocent times. It represents fond memories, goodwill, and gifts freely given."
     },
     {
       "name": "Seven of Cups",
       "number": "7",
       "arcana": "Minor Arcana",
-      "suit": "Cups"
+      "suit": "Cups",
+      "nouns": [
+        "illusion",
+        "fantasy",
+        "choice",
+        "temptation"
+      ],
+      "adjectives": [
+        "illusory",
+        "indecisive",
+        "fanciful",
+        "deceptive"
+      ],
+      "meaning": "A dazzling array of choices, many of them illusory. It represents fantasy, temptation, and the need for discernment before acting."
     },
     {
       "name": "Eight of Cups",
       "number": "8",
       "arcana": "Minor Arcana",
-      "suit": "Cups"
+      "suit": "Cups",
+      "nouns": [
+        "departure",
+        "renunciation",
+        "search",
+        "withdrawal"
+      ],
+      "adjectives": [
+        "withdrawn",
+        "restless",
+        "disillusioned",
+        "searching"
+      ],
+      "meaning": "Walking away from something once desired in search of deeper meaning. It represents renunciation, withdrawal, and a quiet search for fulfillment."
     },
     {
       "name": "Nine of Cups",
       "number": "9",
       "arcana": "Minor Arcana",
-      "suit": "Cups"
+      "suit": "Cups",
+      "nouns": [
+        "satisfaction",
+        "contentment",
+        "pleasure",
+        "fulfillment"
+      ],
+      "adjectives": [
+        "satisfied",
+        "content",
+        "pleased",
+        "fulfilled"
+      ],
+      "meaning": "Contentment and satisfaction, with wishes fulfilled. It represents pleasure, comfort, and emotional well-being."
     },
     {
       "name": "Ten of Cups",
       "number": "10",
       "arcana": "Minor Arcana",
-      "suit": "Cups"
+      "suit": "Cups",
+      "nouns": [
+        "harmony",
+        "fulfillment",
+        "family",
+        "peace"
+      ],
+      "adjectives": [
+        "harmonious",
+        "peaceful",
+        "content",
+        "blissful"
+      ],
+      "meaning": "Lasting happiness shared within home and family. It represents harmony, peace, and emotional fulfillment on a lasting scale."
     },
     {
       "name": "Page of Cups",
       "number": "11",
       "arcana": "Minor Arcana",
-      "suit": "Cups"
+      "suit": "Cups",
+      "nouns": [
+        "imagination",
+        "sensitivity",
+        "creativity",
+        "intuition"
+      ],
+      "adjectives": [
+        "dreamy",
+        "gentle",
+        "imaginative",
+        "sensitive"
+      ],
+      "meaning": "A dreamy, sensitive messenger of new emotional or creative beginnings. It represents imagination, intuition, and gentle curiosity."
     },
     {
       "name": "Knight of Cups",
       "number": "12",
       "arcana": "Minor Arcana",
-      "suit": "Cups"
+      "suit": "Cups",
+      "nouns": [
+        "romance",
+        "charm",
+        "invitation",
+        "idealism"
+      ],
+      "adjectives": [
+        "romantic",
+        "charming",
+        "idealistic",
+        "graceful"
+      ],
+      "meaning": "A romantic idealist advancing an offer of love or invitation. It represents charm, grace, and a pursuit guided by feeling rather than force."
     },
     {
       "name": "Queen of Cups",
       "number": "13",
       "arcana": "Minor Arcana",
-      "suit": "Cups"
+      "suit": "Cups",
+      "nouns": [
+        "compassion",
+        "intuition",
+        "empathy",
+        "nurturing"
+      ],
+      "adjectives": [
+        "compassionate",
+        "intuitive",
+        "empathetic",
+        "nurturing"
+      ],
+      "meaning": "Deep compassion and intuitive emotional understanding. It represents nurturing empathy and sensitivity to others' feelings."
     },
     {
       "name": "King of Cups",
       "number": "14",
       "arcana": "Minor Arcana",
-      "suit": "Cups"
+      "suit": "Cups",
+      "nouns": [
+        "diplomacy",
+        "wisdom",
+        "calmness",
+        "artistry"
+      ],
+      "adjectives": [
+        "calm",
+        "diplomatic",
+        "artistic",
+        "wise"
+      ],
+      "meaning": "Calm mastery over one's emotions, tempered by wisdom. It represents diplomacy, balance, and artistic or compassionate authority."
     },
     {
       "name": "Ace of Swords",
       "number": "1",
       "arcana": "Minor Arcana",
-      "suit": "Swords"
+      "suit": "Swords",
+      "nouns": [
+        "clarity",
+        "truth",
+        "conflict",
+        "power"
+      ],
+      "adjectives": [
+        "sharp",
+        "decisive",
+        "powerful",
+        "clear"
+      ],
+      "meaning": "A moment of piercing clarity and mental power. It represents truth cutting through confusion, though also the potential for conflict."
     },
     {
       "name": "Two of Swords",
       "number": "2",
       "arcana": "Minor Arcana",
-      "suit": "Swords"
+      "suit": "Swords",
+      "nouns": [
+        "stalemate",
+        "indecision",
+        "truce",
+        "balance"
+      ],
+      "adjectives": [
+        "indecisive",
+        "guarded",
+        "balanced",
+        "tense"
+      ],
+      "meaning": "A tense stalemate, caught between two equally guarded positions. It represents indecision and an uneasy truce."
     },
     {
       "name": "Three of Swords",
       "number": "3",
       "arcana": "Minor Arcana",
-      "suit": "Swords"
+      "suit": "Swords",
+      "nouns": [
+        "heartbreak",
+        "grief",
+        "separation",
+        "sorrow"
+      ],
+      "adjectives": [
+        "sorrowful",
+        "painful",
+        "heartbroken",
+        "grieving"
+      ],
+      "meaning": "Heartbreak and sorrow following painful separation. It represents grief, betrayal, or the sting of a difficult truth."
     },
     {
       "name": "Four of Swords",
       "number": "4",
       "arcana": "Minor Arcana",
-      "suit": "Swords"
+      "suit": "Swords",
+      "nouns": [
+        "rest",
+        "recovery",
+        "solitude",
+        "recuperation"
+      ],
+      "adjectives": [
+        "restful",
+        "quiet",
+        "recuperative",
+        "peaceful"
+      ],
+      "meaning": "A necessary rest to recover from conflict or strain. It represents quiet withdrawal and recuperation before returning to action."
     },
     {
       "name": "Five of Swords",
       "number": "5",
       "arcana": "Minor Arcana",
-      "suit": "Swords"
+      "suit": "Swords",
+      "nouns": [
+        "defeat",
+        "conflict",
+        "hostility",
+        "loss"
+      ],
+      "adjectives": [
+        "defeated",
+        "hostile",
+        "bitter",
+        "hollow"
+      ],
+      "meaning": "A hollow victory won at the cost of goodwill. It represents conflict, defeat, and the bitterness left behind by discord."
     },
     {
       "name": "Six of Swords",
       "number": "6",
       "arcana": "Minor Arcana",
-      "suit": "Swords"
+      "suit": "Swords",
+      "nouns": [
+        "transition",
+        "passage",
+        "recovery",
+        "departure"
+      ],
+      "adjectives": [
+        "transitional",
+        "calm",
+        "hopeful",
+        "receding"
+      ],
+      "meaning": "A passage away from turmoil toward calmer waters. It represents transition, recovery, and gradual movement toward relief."
     },
     {
       "name": "Seven of Swords",
       "number": "7",
       "arcana": "Minor Arcana",
-      "suit": "Swords"
+      "suit": "Swords",
+      "nouns": [
+        "deception",
+        "strategy",
+        "evasion",
+        "cunning"
+      ],
+      "adjectives": [
+        "evasive",
+        "cunning",
+        "furtive",
+        "unreliable"
+      ],
+      "meaning": "Cunning strategy or evasive action, not always honest. It represents deception, avoidance, or a solitary plan carried out in secret."
     },
     {
       "name": "Eight of Swords",
       "number": "8",
       "arcana": "Minor Arcana",
-      "suit": "Swords"
+      "suit": "Swords",
+      "nouns": [
+        "restriction",
+        "confinement",
+        "paralysis",
+        "entrapment"
+      ],
+      "adjectives": [
+        "restricted",
+        "trapped",
+        "paralyzed",
+        "constrained"
+      ],
+      "meaning": "A feeling of being trapped by circumstances of one's own making. It represents restriction, helplessness, and self-imposed limitation."
     },
     {
       "name": "Nine of Swords",
       "number": "9",
       "arcana": "Minor Arcana",
-      "suit": "Swords"
+      "suit": "Swords",
+      "nouns": [
+        "anguish",
+        "worry",
+        "despair",
+        "anxiety"
+      ],
+      "adjectives": [
+        "anguished",
+        "sleepless",
+        "fearful",
+        "despairing"
+      ],
+      "meaning": "Sleepless anguish and anxiety over one's fears. It represents worry and despair, often worse in the mind than in reality."
     },
     {
       "name": "Ten of Swords",
       "number": "10",
       "arcana": "Minor Arcana",
-      "suit": "Swords"
+      "suit": "Swords",
+      "nouns": [
+        "ruin",
+        "collapse",
+        "finality",
+        "downfall"
+      ],
+      "adjectives": [
+        "ruinous",
+        "final",
+        "devastating",
+        "exhausted"
+      ],
+      "meaning": "A painful ending that closes out a difficult chapter completely. It represents ruin or a rock-bottom moment that precedes renewal."
     },
     {
       "name": "Page of Swords",
       "number": "11",
       "arcana": "Minor Arcana",
-      "suit": "Swords"
+      "suit": "Swords",
+      "nouns": [
+        "vigilance",
+        "curiosity",
+        "insight",
+        "alertness"
+      ],
+      "adjectives": [
+        "vigilant",
+        "alert",
+        "curious",
+        "sharp-witted"
+      ],
+      "meaning": "A watchful, curious mind eager to investigate and observe. It represents vigilance, alertness, and quick, incisive thinking."
     },
     {
       "name": "Knight of Swords",
       "number": "12",
       "arcana": "Minor Arcana",
-      "suit": "Swords"
+      "suit": "Swords",
+      "nouns": [
+        "haste",
+        "ambition",
+        "assertiveness",
+        "action"
+      ],
+      "adjectives": [
+        "swift",
+        "assertive",
+        "impulsive",
+        "domineering"
+      ],
+      "meaning": "Impulsive, assertive action driven by ambition. It represents haste and a headstrong charge toward one's goal."
     },
     {
       "name": "Queen of Swords",
       "number": "13",
       "arcana": "Minor Arcana",
-      "suit": "Swords"
+      "suit": "Swords",
+      "nouns": [
+        "perception",
+        "independence",
+        "clarity",
+        "candor"
+      ],
+      "adjectives": [
+        "perceptive",
+        "candid",
+        "independent",
+        "incisive"
+      ],
+      "meaning": "Sharp, independent perception unclouded by sentiment. It represents clarity, honesty, and incisive judgment."
     },
     {
       "name": "King of Swords",
       "number": "14",
       "arcana": "Minor Arcana",
-      "suit": "Swords"
+      "suit": "Swords",
+      "nouns": [
+        "authority",
+        "judgment",
+        "intellect",
+        "logic"
+      ],
+      "adjectives": [
+        "authoritative",
+        "analytical",
+        "cautious",
+        "logical"
+      ],
+      "meaning": "Authority grounded in reason, logic, and clear judgment. It represents intellectual mastery and a fair, if exacting, exercise of power."
     },
     {
       "name": "Ace of Wands",
       "number": "1",
       "arcana": "Minor Arcana",
-      "suit": "Wands"
+      "suit": "Wands",
+      "nouns": [
+        "energy",
+        "initiative",
+        "vigor",
+        "creation"
+      ],
+      "adjectives": [
+        "vigorous",
+        "energetic",
+        "forceful",
+        "initiating"
+      ],
+      "meaning": "A burst of creative energy and new initiative. It represents inspiration, vigor, and the spark that begins an enterprise."
     },
     {
       "name": "Two of Wands",
       "number": "2",
       "arcana": "Minor Arcana",
-      "suit": "Wands"
+      "suit": "Wands",
+      "nouns": [
+        "dominion",
+        "ambition",
+        "boldness",
+        "power"
+      ],
+      "adjectives": [
+        "bold",
+        "ambitious",
+        "restless",
+        "resolute"
+      ],
+      "meaning": "Ambition weighing future possibilities before taking bold action. It represents dominion, planning, and the restless pull toward greater horizons."
     },
     {
       "name": "Three of Wands",
       "number": "3",
       "arcana": "Minor Arcana",
-      "suit": "Wands"
+      "suit": "Wands",
+      "nouns": [
+        "leadership",
+        "strength",
+        "foresight",
+        "ambition"
+      ],
+      "adjectives": [
+        "established",
+        "proud",
+        "determined",
+        "confident"
+      ],
+      "meaning": "Foresight and established strength as early efforts begin to bear fruit. It represents confident leadership and expanding opportunity."
     },
     {
       "name": "Four of Wands",
       "number": "4",
       "arcana": "Minor Arcana",
-      "suit": "Wands"
+      "suit": "Wands",
+      "nouns": [
+        "celebration",
+        "harmony",
+        "completion",
+        "homecoming"
+      ],
+      "adjectives": [
+        "harmonious",
+        "festive",
+        "settled",
+        "accomplished"
+      ],
+      "meaning": "Joyful celebration marking a stable achievement or homecoming. It represents harmony, community, and a settled sense of accomplishment."
     },
     {
       "name": "Five of Wands",
       "number": "5",
       "arcana": "Minor Arcana",
-      "suit": "Wands"
+      "suit": "Wands",
+      "nouns": [
+        "conflict",
+        "competition",
+        "rivalry",
+        "struggle"
+      ],
+      "adjectives": [
+        "competitive",
+        "contentious",
+        "chaotic",
+        "combative"
+      ],
+      "meaning": "Competitive struggle and clashing wills vying for advantage. It represents rivalry, conflict, and the chaotic energy of competition."
     },
     {
       "name": "Six of Wands",
       "number": "6",
       "arcana": "Minor Arcana",
-      "suit": "Wands"
+      "suit": "Wands",
+      "nouns": [
+        "victory",
+        "triumph",
+        "recognition",
+        "success"
+      ],
+      "adjectives": [
+        "victorious",
+        "triumphant",
+        "celebrated",
+        "proud"
+      ],
+      "meaning": "Public recognition following a hard-won victory. It represents triumph, pride, and the celebration of success."
     },
     {
       "name": "Seven of Wands",
       "number": "7",
       "arcana": "Minor Arcana",
-      "suit": "Wands"
+      "suit": "Wands",
+      "nouns": [
+        "valor",
+        "defiance",
+        "perseverance",
+        "challenge"
+      ],
+      "adjectives": [
+        "defiant",
+        "courageous",
+        "persistent",
+        "embattled"
+      ],
+      "meaning": "Defiant perseverance in the face of opposition. It represents courage under pressure and the determination to hold one's ground."
     },
     {
       "name": "Eight of Wands",
       "number": "8",
       "arcana": "Minor Arcana",
-      "suit": "Wands"
+      "suit": "Wands",
+      "nouns": [
+        "speed",
+        "momentum",
+        "movement",
+        "haste"
+      ],
+      "adjectives": [
+        "swift",
+        "rapid",
+        "sudden",
+        "fleeting"
+      ],
+      "meaning": "Rapid movement and swift, unstoppable momentum. It represents speed, sudden progress, and events unfolding quickly."
     },
     {
       "name": "Nine of Wands",
       "number": "9",
       "arcana": "Minor Arcana",
-      "suit": "Wands"
+      "suit": "Wands",
+      "nouns": [
+        "resilience",
+        "vigilance",
+        "endurance",
+        "defense"
+      ],
+      "adjectives": [
+        "resilient",
+        "wary",
+        "steadfast",
+        "guarded"
+      ],
+      "meaning": "Weary but resilient vigilance after enduring past battles. It represents guarded endurance and the strength to keep defending what matters."
     },
     {
       "name": "Ten of Wands",
       "number": "10",
       "arcana": "Minor Arcana",
-      "suit": "Wands"
+      "suit": "Wands",
+      "nouns": [
+        "burden",
+        "oppression",
+        "responsibility",
+        "strain"
+      ],
+      "adjectives": [
+        "burdened",
+        "overloaded",
+        "weary",
+        "strained"
+      ],
+      "meaning": "The heavy burden of responsibilities carried alone. It represents strain, overload, and the exhaustion of shouldering too much."
     },
     {
       "name": "Page of Wands",
       "number": "11",
       "arcana": "Minor Arcana",
-      "suit": "Wands"
+      "suit": "Wands",
+      "nouns": [
+        "enthusiasm",
+        "curiosity",
+        "messenger",
+        "ambition"
+      ],
+      "adjectives": [
+        "enthusiastic",
+        "impulsive",
+        "bold",
+        "restless"
+      ],
+      "meaning": "An enthusiastic messenger bursting with restless curiosity. It represents bold new ideas and eager, impulsive ambition."
     },
     {
       "name": "Knight of Wands",
       "number": "12",
       "arcana": "Minor Arcana",
-      "suit": "Wands"
+      "suit": "Wands",
+      "nouns": [
+        "adventure",
+        "impulse",
+        "passion",
+        "departure"
+      ],
+      "adjectives": [
+        "impetuous",
+        "adventurous",
+        "fiery",
+        "reckless"
+      ],
+      "meaning": "A fiery, impetuous adventurer charging toward passion and action. It represents impulsive energy and a reckless zest for new pursuits."
     },
     {
       "name": "Queen of Wands",
       "number": "13",
       "arcana": "Minor Arcana",
-      "suit": "Wands"
+      "suit": "Wands",
+      "nouns": [
+        "confidence",
+        "warmth",
+        "magnetism",
+        "determination"
+      ],
+      "adjectives": [
+        "warm",
+        "magnetic",
+        "confident",
+        "resolute"
+      ],
+      "meaning": "Warm, magnetic confidence that draws others in. It represents determined self-assurance and generous, radiant leadership."
     },
     {
       "name": "King of Wands",
       "number": "14",
       "arcana": "Minor Arcana",
-      "suit": "Wands"
+      "suit": "Wands",
+      "nouns": [
+        "authority",
+        "vision",
+        "leadership",
+        "charisma"
+      ],
+      "adjectives": [
+        "authoritative",
+        "charismatic",
+        "ardent",
+        "generous"
+      ],
+      "meaning": "Charismatic, visionary authority that inspires others to act. It represents bold leadership and ardent, generous command."
     },
     {
       "name": "Ace of Pentacles",
       "number": "1",
       "arcana": "Minor Arcana",
-      "suit": "Pentacles"
+      "suit": "Pentacles",
+      "nouns": [
+        "prosperity",
+        "opportunity",
+        "abundance",
+        "foundation"
+      ],
+      "adjectives": [
+        "prosperous",
+        "tangible",
+        "grounded",
+        "promising"
+      ],
+      "meaning": "A tangible new opportunity for prosperity and material growth. It represents a solid foundation and the promise of abundance to come."
     },
     {
       "name": "Two of Pentacles",
       "number": "2",
       "arcana": "Minor Arcana",
-      "suit": "Pentacles"
+      "suit": "Pentacles",
+      "nouns": [
+        "fluctuation",
+        "balance",
+        "juggling",
+        "adaptability"
+      ],
+      "adjectives": [
+        "adaptable",
+        "juggling",
+        "fluctuating",
+        "versatile"
+      ],
+      "meaning": "Juggling shifting priorities with adaptable balance. It represents fluctuation, resourcefulness, and the ability to manage competing demands."
     },
     {
       "name": "Three of Pentacles",
       "number": "3",
       "arcana": "Minor Arcana",
-      "suit": "Pentacles"
+      "suit": "Pentacles",
+      "nouns": [
+        "craftsmanship",
+        "collaboration",
+        "skill",
+        "construction"
+      ],
+      "adjectives": [
+        "skillful",
+        "collaborative",
+        "diligent",
+        "constructive"
+      ],
+      "meaning": "Skilled collaboration building something of lasting quality. It represents craftsmanship, teamwork, and diligent construction toward a shared goal."
     },
     {
       "name": "Four of Pentacles",
       "number": "4",
       "arcana": "Minor Arcana",
-      "suit": "Pentacles"
+      "suit": "Pentacles",
+      "nouns": [
+        "control",
+        "possession",
+        "security",
+        "caution"
+      ],
+      "adjectives": [
+        "possessive",
+        "cautious",
+        "guarded",
+        "conservative"
+      ],
+      "meaning": "A cautious grip on possessions and security. It represents control, conservatism, and a guarded reluctance to let go."
     },
     {
       "name": "Five of Pentacles",
       "number": "5",
       "arcana": "Minor Arcana",
-      "suit": "Pentacles"
+      "suit": "Pentacles",
+      "nouns": [
+        "hardship",
+        "poverty",
+        "isolation",
+        "worry"
+      ],
+      "adjectives": [
+        "impoverished",
+        "worried",
+        "struggling",
+        "isolated"
+      ],
+      "meaning": "Hardship and isolation felt most keenly when help seems out of reach. It represents financial worry, struggle, and a sense of being left out in the cold."
     },
     {
       "name": "Six of Pentacles",
       "number": "6",
       "arcana": "Minor Arcana",
-      "suit": "Pentacles"
+      "suit": "Pentacles",
+      "nouns": [
+        "generosity",
+        "charity",
+        "balance",
+        "support"
+      ],
+      "adjectives": [
+        "generous",
+        "charitable",
+        "fair",
+        "supportive"
+      ],
+      "meaning": "Generosity flowing between those with plenty and those in need. It represents charity, fairness, and balanced material support."
     },
     {
       "name": "Seven of Pentacles",
       "number": "7",
       "arcana": "Minor Arcana",
-      "suit": "Pentacles"
+      "suit": "Pentacles",
+      "nouns": [
+        "patience",
+        "assessment",
+        "investment",
+        "waiting"
+      ],
+      "adjectives": [
+        "patient",
+        "unfulfilled",
+        "laborious",
+        "uncertain"
+      ],
+      "meaning": "Patient assessment of effort invested, waiting to see if it will pay off. It represents delayed reward and careful evaluation of one's progress."
     },
     {
       "name": "Eight of Pentacles",
       "number": "8",
       "arcana": "Minor Arcana",
-      "suit": "Pentacles"
+      "suit": "Pentacles",
+      "nouns": [
+        "craftsmanship",
+        "diligence",
+        "apprenticeship",
+        "skill"
+      ],
+      "adjectives": [
+        "diligent",
+        "meticulous",
+        "industrious",
+        "studious"
+      ],
+      "meaning": "Diligent craftsmanship refined through steady, focused practice. It represents skill-building, industry, and dedication to one's work."
     },
     {
       "name": "Nine of Pentacles",
       "number": "9",
       "arcana": "Minor Arcana",
-      "suit": "Pentacles"
+      "suit": "Pentacles",
+      "nouns": [
+        "independence",
+        "abundance",
+        "elegance",
+        "self-sufficiency"
+      ],
+      "adjectives": [
+        "self-sufficient",
+        "refined",
+        "prosperous",
+        "content"
+      ],
+      "meaning": "Self-sufficient abundance enjoyed in refined solitude. It represents independence, comfort, and the rewards of careful discipline."
     },
     {
       "name": "Ten of Pentacles",
       "number": "10",
       "arcana": "Minor Arcana",
-      "suit": "Pentacles"
+      "suit": "Pentacles",
+      "nouns": [
+        "legacy",
+        "wealth",
+        "family",
+        "tradition"
+      ],
+      "adjectives": [
+        "wealthy",
+        "established",
+        "enduring",
+        "traditional"
+      ],
+      "meaning": "Lasting wealth and legacy passed down through family and tradition. It represents long-term security and the culmination of material success."
     },
     {
       "name": "Page of Pentacles",
       "number": "11",
       "arcana": "Minor Arcana",
-      "suit": "Pentacles"
+      "suit": "Pentacles",
+      "nouns": [
+        "diligence",
+        "ambition",
+        "study",
+        "opportunity"
+      ],
+      "adjectives": [
+        "diligent",
+        "studious",
+        "practical",
+        "grounded"
+      ],
+      "meaning": "A studious, practical apprentice pursuing a new opportunity. It represents diligence, grounded ambition, and careful planning for the future."
     },
     {
       "name": "Knight of Pentacles",
       "number": "12",
       "arcana": "Minor Arcana",
-      "suit": "Pentacles"
+      "suit": "Pentacles",
+      "nouns": [
+        "diligence",
+        "routine",
+        "reliability",
+        "patience"
+      ],
+      "adjectives": [
+        "methodical",
+        "reliable",
+        "patient",
+        "steady"
+      ],
+      "meaning": "Steady, methodical progress achieved through patient routine. It represents reliability and a slow but sure commitment to duty."
     },
     {
       "name": "Queen of Pentacles",
       "number": "13",
       "arcana": "Minor Arcana",
-      "suit": "Pentacles"
+      "suit": "Pentacles",
+      "nouns": [
+        "nurturing",
+        "practicality",
+        "warmth",
+        "abundance"
+      ],
+      "adjectives": [
+        "nurturing",
+        "practical",
+        "warm",
+        "generous"
+      ],
+      "meaning": "Warm, practical nurturing that provides comfort and abundance. It represents grounded generosity and care for both home and resources."
     },
     {
       "name": "King of Pentacles",
       "number": "14",
       "arcana": "Minor Arcana",
-      "suit": "Pentacles"
+      "suit": "Pentacles",
+      "nouns": [
+        "stability",
+        "reliability",
+        "wealth",
+        "discipline"
+      ],
+      "adjectives": [
+        "steady",
+        "reliable",
+        "prosperous",
+        "disciplined"
+      ],
+      "meaning": "Reliable, disciplined mastery over material affairs. It represents steady prosperity and the calm authority of sustained achievement."
     }
   ]
 }

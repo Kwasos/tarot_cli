@@ -1,15 +1,30 @@
 import random
 from json import JSONDecoder
 import time
+from typing import TypedDict
+
+
+class TarotCard(TypedDict):
+    name: str
+    number: str
+    arcana: str
+    suit: str
+    nouns: list[str]
+    adjectives: list[str]
+    meaning: str
+
 
 commands = {
-    "series": "draw a selected number of cards from the same deck, then shuffle",
-    "draw": "draw a single card from the deck",
+    "draw": "draw the specified number of cards, if no number is given, draw a single card from the deck",
     "shuffle": "return all cards to the deck",
-    "daily": "deterministic selection of a random card based on the current date",
-    "help": "print a list of avaiable commands",
-    "quit": "closes the program",
+    "deck": "display the current number of cards in the deck",
+    "drawn": "display drawn cards, currently not in the deck",
+    "daily": "deterministic selection of a random card based on the current date, always uses a fresh deck",
+    "help | h": "print a list of avaiable commands",
+    "quit | q": "closes the program",
 }
+
+drawn_cards: list[TarotCard] = []
 
 
 def help() -> None:
@@ -25,7 +40,7 @@ def get_cards() -> str:
 
 
 # Create deck
-def create_deck() -> list[dict]:
+def create_deck() -> list[TarotCard]:
     cards = get_cards()
 
     # Using JSONDecoder to parse JSON
@@ -33,31 +48,45 @@ def create_deck() -> list[dict]:
     cards = decoder.decode(cards)
 
     # Create and add cards to the deck
-    deck = []
+    deck: list[TarotCard] = []
     for card in cards["cards"]:
         deck.append(card)
 
     return deck
 
 
-def draw(deck: list[dict]) -> tuple[list[dict], dict]:
-    deck = deck.copy()
+def draw(deck: list[TarotCard]) -> tuple[list[TarotCard], TarotCard]:
     index: int = random.randrange(len(deck))
-    selected_card: dict = deck.pop(index)
+    selected_card: TarotCard = deck.pop(index)
+    drawn_cards.append(selected_card)
     return deck, selected_card
 
 
-def put_back(deck: list[dict], card: dict) -> list[dict]:
+def shuffle() -> list[TarotCard]:
+    deck: list[TarotCard] = create_deck()
+    drawn_cards.clear()
+    return deck
+
+
+def inspect(card: TarotCard) -> None:
+    print(f"""
+    name: {card["name"]}
+    number: {card["number"]}
+    arcana: {card["arcana"]}
+    suit: {card["suit"]}
+    nouns: {card["nouns"]}
+    adjectives: {card["adjectives"]}
+    meaning: {card["meaning"]}""")
+
+
+def put_back(deck: list[TarotCard], card: TarotCard) -> list[TarotCard]:
     deck.append(card)
     return deck
 
 
 # Drawing a series of cards
-def series(deck: list[dict]) -> None:
-    user_input = input("How many cards would you like to pull? ")
-    print("Press Enter to draw cards")
-
-    for _ in range(0, int(user_input)):
+def series(deck: list[TarotCard], n: int) -> None:
+    for _ in range(0, n):
         input()
         deck, card = draw(deck)
         # Assign reversed
@@ -67,15 +96,15 @@ def series(deck: list[dict]) -> None:
 
 
 # Fixed card per day
-def daily(deck: list[dict]) -> dict:
-    deck = deck.copy()
+def daily() -> TarotCard:
+    deck: list[TarotCard] = create_deck()
     date = time.localtime()
     date = int(str(date.tm_yday) + str(date.tm_year))
     random.seed(date)
     index: int = random.randrange(len(deck))
-    selected_card: dict = deck.pop(index)
+    selected_card: TarotCard = deck.pop(index)
 
-    # Randomizing the seed again (for now, might not be needed)
+    # Randomizing the seed again
     t = 1000 * time.time()
     random.seed(int(t) % 2**32)
     return selected_card
