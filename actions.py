@@ -1,25 +1,36 @@
 import random
 from json import JSONDecoder
 import time
-from typing import TypedDict
+from typing import TypedDict, Optional
+from rich import print
 
 
 class TarotCard(TypedDict):
     name: str
     number: str
     arcana: str
-    suit: str
+    suit: Optional[str]
     nouns: list[str]
     adjectives: list[str]
     meaning: str
+    nouns_reversed: list[str]
+    adjectives_reversed: list[str]
+    meaning_reversed: str
 
 
-commands = {
+deck_commands = {
     "draw": "draw the specified number of cards, if no number is given, draw a single card from the deck",
     "shuffle": "return all cards to the deck",
     "deck": "display the current number of cards in the deck",
     "drawn": "display drawn cards, currently not in the deck",
-    "daily": "deterministic selection of a random card based on the current date, always uses a fresh deck",
+    "inspect": "display all card details for the specified card",
+}
+
+spreads = {
+    "daily": "deterministic selection of a random card based on the current date, always uses a fresh deck and draws the card upright",
+}
+
+commands = {
     "help | h": "print a list of avaiable commands",
     "quit | q": "closes the program",
 }
@@ -28,8 +39,17 @@ drawn_cards: list[TarotCard] = []
 
 
 def help() -> None:
+    print("[bold cyan]Deck commands:[/bold cyan]")
+    for command in deck_commands:
+        print(f"> [cyan]{command}[/cyan] --- {deck_commands[command]}")
+
+    print("[bold magenta]Spreads:[/bold magenta]")
+    for command in spreads:
+        print(f"> [magenta]{command}[/magenta] --- {spreads[command]}")
+
+    print("[bold bright_red]System commands:[/bold bright_red]")
     for command in commands:
-        print(f"COMMAND: {command}\nDESCRIPTION: {commands[command]}\n")
+        print(f"> [bright_red]{command}[/bright_red] --- {commands[command]}")
 
 
 # Load json card data
@@ -76,7 +96,10 @@ def inspect(card: TarotCard) -> None:
     suit: {card["suit"]}
     nouns: {card["nouns"]}
     adjectives: {card["adjectives"]}
-    meaning: {card["meaning"]}""")
+    meaning: {card["meaning"]}
+    nouns_reversed: {card["nouns_reversed"]}
+    adjectives_reversed: {card["adjectives_reversed"]}
+    meaning_reversed: {card["meaning_reversed"]}""")
 
 
 def put_back(deck: list[TarotCard], card: TarotCard) -> list[TarotCard]:

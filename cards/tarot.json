@@ -1,5 +1,5 @@
 {
-  "description": "tarot cards, basic attributes and meanings",
+  "description": "tarot cards and basic information about them",
   "cards": [
     {
       "name": "The Fool",
@@ -18,7 +18,20 @@
         "audacious",
         "eccentric"
       ],
-      "meaning": "A leap into the unknown, guided by innocence rather than calculation. It marks a fresh start, though it warns of folly when caution is abandoned entirely."
+      "meaning": "A leap into the unknown, guided by innocence rather than calculation. It marks a fresh start, though it warns of folly when caution is abandoned entirely.",
+      "nouns_reversed": [
+        "recklessness",
+        "chaos",
+        "irresponsibility",
+        "hesitation"
+      ],
+      "adjectives_reversed": [
+        "reckless",
+        "foolish",
+        "erratic",
+        "hesitant"
+      ],
+      "meaning_reversed": "Recklessness or fear that has curdled into paralysis, with poor judgment and impulsive missteps. It can also signal apathy or a refusal to take any risk at all."
     },
     {
       "name": "The Magician",
@@ -37,7 +50,20 @@
         "resourceful",
         "cunning"
       ],
-      "meaning": "Mastery of will and skill, using the tools at hand to turn an idea into reality. It represents resourcefulness and the power to begin something new through focused intent."
+      "meaning": "Mastery of will and skill, using the tools at hand to turn an idea into reality. It represents resourcefulness and the power to begin something new through focused intent.",
+      "nouns_reversed": [
+        "deception",
+        "manipulation",
+        "trickery",
+        "stagnation"
+      ],
+      "adjectives_reversed": [
+        "deceptive",
+        "manipulative",
+        "unscrupulous",
+        "blocked"
+      ],
+      "meaning_reversed": "Talent turned toward deception, trickery, or manipulation rather than honest creation. It can also mean untapped potential and blocked will."
     },
     {
       "name": "The High Priestess",
@@ -56,7 +82,20 @@
         "intuitive",
         "hidden"
       ],
-      "meaning": "Guardian of hidden knowledge and intuition not yet spoken aloud. She points toward mystery and truths that must be sensed rather than reasoned out."
+      "meaning": "Guardian of hidden knowledge and intuition not yet spoken aloud. She points toward mystery and truths that must be sensed rather than reasoned out.",
+      "nouns_reversed": [
+        "exposed secrets",
+        "superficiality",
+        "confusion",
+        "repression"
+      ],
+      "adjectives_reversed": [
+        "superficial",
+        "confused",
+        "repressed",
+        "indiscreet"
+      ],
+      "meaning_reversed": "Secrets exposed before their time, or surface knowledge mistaken for real understanding. It can also mean repressed intuition or a disconnect from one's inner voice."
     },
     {
       "name": "The Empress",
@@ -75,7 +114,20 @@
         "sensuous",
         "abundant"
       ],
-      "meaning": "Abundance, fertility, and creative growth flowing freely into the world. She represents nurturing, sensual pleasure, and the natural fruitfulness of life."
+      "meaning": "Abundance, fertility, and creative growth flowing freely into the world. She represents nurturing, sensual pleasure, and the natural fruitfulness of life.",
+      "nouns_reversed": [
+        "dissipation",
+        "neglect",
+        "excess",
+        "stagnation"
+      ],
+      "adjectives_reversed": [
+        "neglectful",
+        "indulgent",
+        "smothering",
+        "idle"
+      ],
+      "meaning_reversed": "Excess and dissipation, or fertility and growth stalled by neglect. It can also point to smothering care or dependency."
     },
     {
       "name": "The Emperor",
@@ -94,7 +146,20 @@
         "ambitious",
         "stern"
       ],
-      "meaning": "Authority, structure, and the discipline needed to build lasting order. He embodies ambition and firm leadership, though carried too far it hardens into rigidity."
+      "meaning": "Authority, structure, and the discipline needed to build lasting order. He embodies ambition and firm leadership, though carried too far it hardens into rigidity.",
+      "nouns_reversed": [
+        "tyranny",
+        "rigidity",
+        "conflict",
+        "domination"
+      ],
+      "adjectives_reversed": [
+        "tyrannical",
+        "rigid",
+        "domineering",
+        "reckless"
+      ],
+      "meaning_reversed": "Authority curdled into rigidity, control, or domination. It can also mean a loss of discipline and an inability to lead effectively."
     },
     {
       "name": "The Hierophant",
@@ -113,7 +178,20 @@
         "wise",
         "ceremonial"
       ],
-      "meaning": "Tradition, doctrine, and the guidance passed down through established institutions. He represents conventional wisdom and the comfort of shared belief and ritual."
+      "meaning": "Tradition, doctrine, and the guidance passed down through established institutions. He represents conventional wisdom and the comfort of shared belief and ritual.",
+      "nouns_reversed": [
+        "rebellion",
+        "dogma",
+        "restriction",
+        "unorthodoxy"
+      ],
+      "adjectives_reversed": [
+        "unorthodox",
+        "rebellious",
+        "restrictive",
+        "hollow"
+      ],
+      "meaning_reversed": "A rejection of convention, or tradition that has become hollow and overly restrictive. It can also mean unconventional beliefs replacing inherited ones."
     },
     {
       "name": "The Lovers",
@@ -132,7 +210,20 @@
         "intimate",
         "united"
       ],
-      "meaning": "Attraction and a meaningful choice between two paths. It signifies harmony between people, or between one's inner desires and outer life."
+      "meaning": "Attraction and a meaningful choice between two paths. It signifies harmony between people, or between one's inner desires and outer life.",
+      "nouns_reversed": [
+        "imbalance",
+        "separation",
+        "temptation",
+        "discord"
+      ],
+      "adjectives_reversed": [
+        "conflicted",
+        "discordant",
+        "unfaithful",
+        "mismatched"
+      ],
+      "meaning_reversed": "Discord between partners, or a choice made from temptation rather than genuine alignment. It can also mean imbalance between one's values and desires."
     },
     {
       "name": "The Chariot",
@@ -151,7 +242,20 @@
         "disciplined",
         "triumphant"
       ],
-      "meaning": "Triumph achieved through willpower and the disciplined control of opposing forces. It represents victory, determination, and forward momentum toward a goal."
+      "meaning": "Triumph achieved through willpower and the disciplined control of opposing forces. It represents victory, determination, and forward momentum toward a goal.",
+      "nouns_reversed": [
+        "loss of control",
+        "aggression",
+        "obstruction",
+        "defeat"
+      ],
+      "adjectives_reversed": [
+        "scattered",
+        "reckless",
+        "obstructed",
+        "aggressive"
+      ],
+      "meaning_reversed": "A loss of direction or control, with willpower turned to aggression or recklessness. It can also mean obstacles that stall forward progress."
     },
     {
       "name": "Strength",
@@ -170,7 +274,20 @@
         "resilient",
         "steadfast"
       ],
-      "meaning": "Quiet courage that tames raw force through patience and compassion rather than domination. It represents inner fortitude and the gentle mastery of one's own passions."
+      "meaning": "Quiet courage that tames raw force through patience and compassion rather than domination. It represents inner fortitude and the gentle mastery of one's own passions.",
+      "nouns_reversed": [
+        "self-doubt",
+        "obstinacy",
+        "impulsiveness",
+        "weakness"
+      ],
+      "adjectives_reversed": [
+        "insecure",
+        "obstinate",
+        "impulsive",
+        "overwhelmed"
+      ],
+      "meaning_reversed": "Inner strength giving way to self-doubt, or raw passion and obstinacy left unchecked. It can also mean reckless risk-taking in place of patient courage."
     },
     {
       "name": "The Hermit",
@@ -189,7 +306,20 @@
         "wise",
         "illuminating"
       ],
-      "meaning": "Withdrawal from the world in search of inner wisdom and guidance. His lantern offers light to others even as he walks a solitary path."
+      "meaning": "Withdrawal from the world in search of inner wisdom and guidance. His lantern offers light to others even as he walks a solitary path.",
+      "nouns_reversed": [
+        "isolation",
+        "withdrawal",
+        "misunderstanding",
+        "loneliness"
+      ],
+      "adjectives_reversed": [
+        "isolated",
+        "reclusive",
+        "misunderstood",
+        "withdrawn"
+      ],
+      "meaning_reversed": "Isolation that has curdled into loneliness rather than reflection. It can also mean refusing needed guidance or withdrawing from the world in unhealthy ways."
     },
     {
       "name": "Wheel of Fortune",
@@ -208,7 +338,20 @@
         "unpredictable",
         "turning"
       ],
-      "meaning": "The turning of fate, bringing sudden change for better or worse. It is a reminder that fortune is cyclical, and success should be held without excessive pride."
+      "meaning": "The turning of fate, bringing sudden change for better or worse. It is a reminder that fortune is cyclical, and success should be held without excessive pride.",
+      "nouns_reversed": [
+        "misfortune",
+        "stagnation",
+        "arrogance",
+        "disruption"
+      ],
+      "adjectives_reversed": [
+        "unlucky",
+        "arrogant",
+        "stuck",
+        "disruptive"
+      ],
+      "meaning_reversed": "A downturn in fortune, or success that breeds arrogance and a fall from grace. It can also mean feeling stuck in a cycle with no clear way forward."
     },
     {
       "name": "Justice",
@@ -227,7 +370,20 @@
         "impartial",
         "lawful"
       ],
-      "meaning": "Balance, fairness, and the consequences that follow from one's actions. It favors honest dealings, legal matters, and impartial judgment."
+      "meaning": "Balance, fairness, and the consequences that follow from one's actions. It favors honest dealings, legal matters, and impartial judgment.",
+      "nouns_reversed": [
+        "injustice",
+        "imbalance",
+        "dishonesty",
+        "bias"
+      ],
+      "adjectives_reversed": [
+        "unjust",
+        "biased",
+        "dishonest",
+        "unstable"
+      ],
+      "meaning_reversed": "Injustice, dishonesty, or a legal matter that turns unfavorable. It can also mean imbalance and a refusal to take responsibility for one's actions."
     },
     {
       "name": "The Hanged Man",
@@ -246,7 +402,20 @@
         "patient",
         "reflective"
       ],
-      "meaning": "Suspension and surrender, gaining a new perspective through sacrifice rather than struggle. It represents a pause of enforced patience that leads to insight."
+      "meaning": "Suspension and surrender, gaining a new perspective through sacrifice rather than struggle. It represents a pause of enforced patience that leads to insight.",
+      "nouns_reversed": [
+        "resistance",
+        "stagnation",
+        "martyrdom",
+        "delay"
+      ],
+      "adjectives_reversed": [
+        "resistant",
+        "stalled",
+        "martyred",
+        "indecisive"
+      ],
+      "meaning_reversed": "Resistance to a necessary surrender, prolonging suffering rather than releasing it. It can also mean pointless self-sacrifice or being stuck in place."
     },
     {
       "name": "Death",
@@ -265,7 +434,20 @@
         "final",
         "transitional"
       ],
-      "meaning": "The end of one state of being and the transformation that clears the way for renewal. It rarely means literal death, but rather profound, irreversible change."
+      "meaning": "The end of one state of being and the transformation that clears the way for renewal. It rarely means literal death, but rather profound, irreversible change.",
+      "nouns_reversed": [
+        "resistance",
+        "stagnation",
+        "fear",
+        "decay"
+      ],
+      "adjectives_reversed": [
+        "stagnant",
+        "fearful",
+        "resistant",
+        "decaying"
+      ],
+      "meaning_reversed": "Resistance to an ending that needs to happen, leaving stagnation and decay in its place. It can also mean a fear of change that prolongs unnecessary suffering."
     },
     {
       "name": "Temperance",
@@ -284,7 +466,20 @@
         "balanced",
         "patient"
       ],
-      "meaning": "The patient blending of opposites into a harmonious whole. It represents moderation, careful management, and gradual reconciliation of competing forces."
+      "meaning": "The patient blending of opposites into a harmonious whole. It represents moderation, careful management, and gradual reconciliation of competing forces.",
+      "nouns_reversed": [
+        "imbalance",
+        "excess",
+        "discord",
+        "impatience"
+      ],
+      "adjectives_reversed": [
+        "imbalanced",
+        "excessive",
+        "discordant",
+        "impatient"
+      ],
+      "meaning_reversed": "Imbalance and excess where moderation is needed. It can also mean impatience that disrupts a delicate process of reconciliation."
     },
     {
       "name": "The Devil",
@@ -303,7 +498,20 @@
         "obsessive",
         "restrictive"
       ],
-      "meaning": "Bondage to material desire, temptation, and self-imposed limitation. It represents obsession and the chains people accept when they mistake attachment for necessity."
+      "meaning": "Bondage to material desire, temptation, and self-imposed limitation. It represents obsession and the chains people accept when they mistake attachment for necessity.",
+      "nouns_reversed": [
+        "liberation",
+        "awareness",
+        "entanglement",
+        "addiction"
+      ],
+      "adjectives_reversed": [
+        "liberating",
+        "entangled",
+        "compulsive",
+        "waking"
+      ],
+      "meaning_reversed": "Breaking free from bondage and unhealthy attachment, or, in a darker sense, sinking deeper into obsession and dependency. It can also mean newfound awareness of a pattern that has held one captive."
     },
     {
       "name": "The Tower",
@@ -322,7 +530,20 @@
         "disruptive",
         "shattering"
       ],
-      "meaning": "Sudden upheaval that shatters false structures built on unstable foundations. Though disruptive, it clears away illusion and forces a necessary reckoning."
+      "meaning": "Sudden upheaval that shatters false structures built on unstable foundations. Though disruptive, it clears away illusion and forces a necessary reckoning.",
+      "nouns_reversed": [
+        "avoidance",
+        "suppression",
+        "delay",
+        "instability"
+      ],
+      "adjectives_reversed": [
+        "delayed",
+        "suppressed",
+        "unstable",
+        "avoidant"
+      ],
+      "meaning_reversed": "Disaster narrowly avoided, or a necessary upheaval delayed rather than faced. It can also mean fear of change leaving unstable foundations in place."
     },
     {
       "name": "The Star",
@@ -341,7 +562,20 @@
         "inspiring",
         "radiant"
       ],
-      "meaning": "Hope, healing, and quiet inspiration after hardship. It represents faith in the future and a renewed sense of purpose."
+      "meaning": "Hope, healing, and quiet inspiration after hardship. It represents faith in the future and a renewed sense of purpose.",
+      "nouns_reversed": [
+        "despair",
+        "disconnection",
+        "disillusionment",
+        "doubt"
+      ],
+      "adjectives_reversed": [
+        "despairing",
+        "disconnected",
+        "disillusioned",
+        "doubtful"
+      ],
+      "meaning_reversed": "A loss of faith or hope, with disillusionment replacing inspiration. It can also mean feeling disconnected from one's purpose or let down by others."
     },
     {
       "name": "The Moon",
@@ -360,7 +594,20 @@
         "uncertain",
         "dreamlike"
       ],
-      "meaning": "Illusion, uncertainty, and the murky realm of imagination and fear. It warns of deception and urges caution where the truth is not yet clear."
+      "meaning": "Illusion, uncertainty, and the murky realm of imagination and fear. It warns of deception and urges caution where the truth is not yet clear.",
+      "nouns_reversed": [
+        "deception",
+        "confusion",
+        "fear",
+        "instability"
+      ],
+      "adjectives_reversed": [
+        "deceptive",
+        "confused",
+        "fearful",
+        "unstable"
+      ],
+      "meaning_reversed": "Confusion and fear giving way to deception, whether self-deception or the hidden agendas of others. It can also mean releasing an old anxiety once its cause is finally seen clearly."
     },
     {
       "name": "The Sun",
@@ -379,7 +626,20 @@
         "vital",
         "triumphant"
       ],
-      "meaning": "Vitality, joy, and clear, radiant success. It represents happiness, confidence, and the fulfillment of one's hopes."
+      "meaning": "Vitality, joy, and clear, radiant success. It represents happiness, confidence, and the fulfillment of one's hopes.",
+      "nouns_reversed": [
+        "vanity",
+        "arrogance",
+        "pessimism",
+        "delay"
+      ],
+      "adjectives_reversed": [
+        "vain",
+        "arrogant",
+        "pessimistic",
+        "clouded"
+      ],
+      "meaning_reversed": "Joy dimmed by vanity, arrogance, or excessive display. It can also mean a temporary clouding of optimism or delayed success."
     },
     {
       "name": "Judgement",
@@ -398,7 +658,20 @@
         "awakening",
         "transformative"
       ],
-      "meaning": "A moment of reckoning and awakening that calls for honest self-evaluation. It represents renewal, absolution, and a decisive turning point."
+      "meaning": "A moment of reckoning and awakening that calls for honest self-evaluation. It represents renewal, absolution, and a decisive turning point.",
+      "nouns_reversed": [
+        "self-doubt",
+        "avoidance",
+        "stagnation",
+        "regret"
+      ],
+      "adjectives_reversed": [
+        "self-critical",
+        "avoidant",
+        "stagnant",
+        "regretful"
+      ],
+      "meaning_reversed": "A refusal to hear an honest call to change, or harsh self-judgment that blocks renewal. It can also mean an unfavorable outcome or a decision delayed too long."
     },
     {
       "name": "The World",
@@ -417,7 +690,20 @@
         "triumphant",
         "whole"
       ],
-      "meaning": "Completion, wholeness, and the successful conclusion of a long cycle. It represents fulfillment and the reward earned through sustained effort."
+      "meaning": "Completion, wholeness, and the successful conclusion of a long cycle. It represents fulfillment and the reward earned through sustained effort.",
+      "nouns_reversed": [
+        "incompletion",
+        "delay",
+        "stagnation",
+        "shortcut"
+      ],
+      "adjectives_reversed": [
+        "incomplete",
+        "delayed",
+        "unfinished",
+        "stalled"
+      ],
+      "meaning_reversed": "A goal left unfinished, or completion delayed just short of the finish line. It can also mean taking shortcuts that undermine a lasting sense of achievement."
     },
     {
       "name": "Ace of Cups",
@@ -436,7 +722,20 @@
         "loving",
         "fruitful"
       ],
-      "meaning": "The overflowing source of love, joy, and emotional fulfillment. It marks the beginning of new feelings, pleasure, or a fruitful relationship."
+      "meaning": "The overflowing source of love, joy, and emotional fulfillment. It marks the beginning of new feelings, pleasure, or a fruitful relationship.",
+      "nouns_reversed": [
+        "emptiness",
+        "blockage",
+        "instability",
+        "sorrow"
+      ],
+      "adjectives_reversed": [
+        "empty",
+        "blocked",
+        "unstable",
+        "unfulfilled"
+      ],
+      "meaning_reversed": "Emotional emptiness or a blockage where love and joy should flow freely. It can also mean instability in feelings or an unfulfilled desire."
     },
     {
       "name": "Two of Cups",
@@ -455,7 +754,20 @@
         "affectionate",
         "united"
       ],
-      "meaning": "Mutual attraction and harmony between two people. It represents partnership, reciprocity, and emotional connection."
+      "meaning": "Mutual attraction and harmony between two people. It represents partnership, reciprocity, and emotional connection.",
+      "nouns_reversed": [
+        "imbalance",
+        "miscommunication",
+        "separation",
+        "tension"
+      ],
+      "adjectives_reversed": [
+        "imbalanced",
+        "strained",
+        "distant",
+        "mismatched"
+      ],
+      "meaning_reversed": "A partnership under strain, with miscommunication or imbalance replacing harmony. It can also mean a connection that has grown distant."
     },
     {
       "name": "Three of Cups",
@@ -474,7 +786,20 @@
         "sociable",
         "abundant"
       ],
-      "meaning": "Joyful celebration shared among friends. It represents abundance, friendship, and communal happiness."
+      "meaning": "Joyful celebration shared among friends. It represents abundance, friendship, and communal happiness.",
+      "nouns_reversed": [
+        "overindulgence",
+        "gossip",
+        "isolation",
+        "excess"
+      ],
+      "adjectives_reversed": [
+        "excessive",
+        "gossiping",
+        "isolated",
+        "overindulgent"
+      ],
+      "meaning_reversed": "Celebration tipping into overindulgence, or friendships strained by gossip and rivalry. It can also mean isolation where community once was."
     },
     {
       "name": "Four of Cups",
@@ -493,7 +818,20 @@
         "discontented",
         "stagnant"
       ],
-      "meaning": "A restless dissatisfaction despite apparent comfort. It represents apathy or contemplation, turning away from present pleasures in search of something deeper."
+      "meaning": "A restless dissatisfaction despite apparent comfort. It represents apathy or contemplation, turning away from present pleasures in search of something deeper.",
+      "nouns_reversed": [
+        "renewed interest",
+        "restlessness",
+        "pursuit",
+        "contention"
+      ],
+      "adjectives_reversed": [
+        "restless",
+        "renewed",
+        "impulsive",
+        "contentious"
+      ],
+      "meaning_reversed": "A sudden return of interest or motivation after a period of apathy. It can also mean chasing something through contention or unfair means."
     },
     {
       "name": "Five of Cups",
@@ -512,7 +850,20 @@
         "disappointed",
         "mournful"
       ],
-      "meaning": "Grief over what has been lost, while overlooking what still remains. It represents disappointment, regret, and mourning."
+      "meaning": "Grief over what has been lost, while overlooking what still remains. It represents disappointment, regret, and mourning.",
+      "nouns_reversed": [
+        "recovery",
+        "acceptance",
+        "moving on",
+        "renewal"
+      ],
+      "adjectives_reversed": [
+        "healing",
+        "accepting",
+        "hopeful",
+        "recovering"
+      ],
+      "meaning_reversed": "Beginning to move past grief and accept a loss rather than dwelling on it. It can also mean the return of hope after a period of mourning."
     },
     {
       "name": "Six of Cups",
@@ -531,7 +882,20 @@
         "sentimental",
         "generous"
       ],
-      "meaning": "Nostalgia for simpler, more innocent times. It represents fond memories, goodwill, and gifts freely given."
+      "meaning": "Nostalgia for simpler, more innocent times. It represents fond memories, goodwill, and gifts freely given.",
+      "nouns_reversed": [
+        "vanity",
+        "stagnation",
+        "naivety",
+        "conflict"
+      ],
+      "adjectives_reversed": [
+        "vain",
+        "naive",
+        "stuck",
+        "sentimental"
+      ],
+      "meaning_reversed": "Living too much in the past, or vanity and self-assertion causing needless conflict. It can also mean naivety that keeps someone from moving forward."
     },
     {
       "name": "Seven of Cups",
@@ -550,7 +914,20 @@
         "fanciful",
         "deceptive"
       ],
-      "meaning": "A dazzling array of choices, many of them illusory. It represents fantasy, temptation, and the need for discernment before acting."
+      "meaning": "A dazzling array of choices, many of them illusory. It represents fantasy, temptation, and the need for discernment before acting.",
+      "nouns_reversed": [
+        "confusion",
+        "indecision",
+        "escapism",
+        "disillusionment"
+      ],
+      "adjectives_reversed": [
+        "confused",
+        "escapist",
+        "disillusioned",
+        "unfocused"
+      ],
+      "meaning_reversed": "Confusion clearing, or a decision finally made after too long spent lost in fantasy. It can also mean escapism, deception, or unfulfilled promises."
     },
     {
       "name": "Eight of Cups",
@@ -569,7 +946,20 @@
         "disillusioned",
         "searching"
       ],
-      "meaning": "Walking away from something once desired in search of deeper meaning. It represents renunciation, withdrawal, and a quiet search for fulfillment."
+      "meaning": "Walking away from something once desired in search of deeper meaning. It represents renunciation, withdrawal, and a quiet search for fulfillment.",
+      "nouns_reversed": [
+        "stagnation",
+        "fear",
+        "avoidance",
+        "return"
+      ],
+      "adjectives_reversed": [
+        "stagnant",
+        "fearful",
+        "hesitant",
+        "unresolved"
+      ],
+      "meaning_reversed": "Fear of change keeping someone tied to a situation they have outgrown. It can also mean returning to something once left behind."
     },
     {
       "name": "Nine of Cups",
@@ -588,7 +978,20 @@
         "pleased",
         "fulfilled"
       ],
-      "meaning": "Contentment and satisfaction, with wishes fulfilled. It represents pleasure, comfort, and emotional well-being."
+      "meaning": "Contentment and satisfaction, with wishes fulfilled. It represents pleasure, comfort, and emotional well-being.",
+      "nouns_reversed": [
+        "vanity",
+        "complacency",
+        "dissatisfaction",
+        "overindulgence"
+      ],
+      "adjectives_reversed": [
+        "vain",
+        "complacent",
+        "unsatisfied",
+        "smug"
+      ],
+      "meaning_reversed": "Satisfaction curdled into vanity or complacency. It can also mean a nagging dissatisfaction despite apparent success."
     },
     {
       "name": "Ten of Cups",
@@ -607,7 +1010,20 @@
         "content",
         "blissful"
       ],
-      "meaning": "Lasting happiness shared within home and family. It represents harmony, peace, and emotional fulfillment on a lasting scale."
+      "meaning": "Lasting happiness shared within home and family. It represents harmony, peace, and emotional fulfillment on a lasting scale.",
+      "nouns_reversed": [
+        "discord",
+        "disruption",
+        "disappointment",
+        "instability"
+      ],
+      "adjectives_reversed": [
+        "discordant",
+        "disrupted",
+        "strained",
+        "unstable"
+      ],
+      "meaning_reversed": "Domestic harmony disrupted by conflict or misalignment of values. It can also mean disappointment when a hoped-for happy ending falls short."
     },
     {
       "name": "Page of Cups",
@@ -626,7 +1042,20 @@
         "imaginative",
         "sensitive"
       ],
-      "meaning": "A dreamy, sensitive messenger of new emotional or creative beginnings. It represents imagination, intuition, and gentle curiosity."
+      "meaning": "A dreamy, sensitive messenger of new emotional or creative beginnings. It represents imagination, intuition, and gentle curiosity.",
+      "nouns_reversed": [
+        "immaturity",
+        "self-indulgence",
+        "moodiness",
+        "escapism"
+      ],
+      "adjectives_reversed": [
+        "immature",
+        "self-indulgent",
+        "moody",
+        "escapist"
+      ],
+      "meaning_reversed": "Emotional immaturity or self-indulgence in place of genuine creativity. It can also mean news received with disappointment, or a message left unspoken."
     },
     {
       "name": "Knight of Cups",
@@ -645,7 +1074,20 @@
         "idealistic",
         "graceful"
       ],
-      "meaning": "A romantic idealist advancing an offer of love or invitation. It represents charm, grace, and a pursuit guided by feeling rather than force."
+      "meaning": "A romantic idealist advancing an offer of love or invitation. It represents charm, grace, and a pursuit guided by feeling rather than force.",
+      "nouns_reversed": [
+        "insincerity",
+        "idleness",
+        "moodiness",
+        "unreliability"
+      ],
+      "adjectives_reversed": [
+        "insincere",
+        "idle",
+        "unreliable",
+        "moody"
+      ],
+      "meaning_reversed": "Romantic charm turning insincere, with promises that are not followed through. It can also mean moodiness or an idle drifting through emotional matters."
     },
     {
       "name": "Queen of Cups",
@@ -664,7 +1106,20 @@
         "empathetic",
         "nurturing"
       ],
-      "meaning": "Deep compassion and intuitive emotional understanding. It represents nurturing empathy and sensitivity to others' feelings."
+      "meaning": "Deep compassion and intuitive emotional understanding. It represents nurturing empathy and sensitivity to others' feelings.",
+      "nouns_reversed": [
+        "moodiness",
+        "insecurity",
+        "dependency",
+        "overwhelm"
+      ],
+      "adjectives_reversed": [
+        "moody",
+        "insecure",
+        "overwhelmed",
+        "codependent"
+      ],
+      "meaning_reversed": "Emotional sensitivity tipping into moodiness or overwhelm. It can also mean losing oneself in the needs of others rather than tending to one's own."
     },
     {
       "name": "King of Cups",
@@ -683,7 +1138,20 @@
         "artistic",
         "wise"
       ],
-      "meaning": "Calm mastery over one's emotions, tempered by wisdom. It represents diplomacy, balance, and artistic or compassionate authority."
+      "meaning": "Calm mastery over one's emotions, tempered by wisdom. It represents diplomacy, balance, and artistic or compassionate authority.",
+      "nouns_reversed": [
+        "volatility",
+        "manipulation",
+        "coldness",
+        "moodiness"
+      ],
+      "adjectives_reversed": [
+        "volatile",
+        "manipulative",
+        "cold",
+        "unpredictable"
+      ],
+      "meaning_reversed": "Emotional volatility hidden beneath a calm exterior, or feelings used to manipulate rather than connect. It can also mean coldness where warmth is needed."
     },
     {
       "name": "Ace of Swords",
@@ -702,7 +1170,20 @@
         "powerful",
         "clear"
       ],
-      "meaning": "A moment of piercing clarity and mental power. It represents truth cutting through confusion, though also the potential for conflict."
+      "meaning": "A moment of piercing clarity and mental power. It represents truth cutting through confusion, though also the potential for conflict.",
+      "nouns_reversed": [
+        "confusion",
+        "chaos",
+        "misuse",
+        "brutality"
+      ],
+      "adjectives_reversed": [
+        "confused",
+        "chaotic",
+        "brutal",
+        "misused"
+      ],
+      "meaning_reversed": "Clarity clouded by confusion, or truth and power misused to cause harm. It can also mean destructive force applied without discipline."
     },
     {
       "name": "Two of Swords",
@@ -721,7 +1202,20 @@
         "balanced",
         "tense"
       ],
-      "meaning": "A tense stalemate, caught between two equally guarded positions. It represents indecision and an uneasy truce."
+      "meaning": "A tense stalemate, caught between two equally guarded positions. It represents indecision and an uneasy truce.",
+      "nouns_reversed": [
+        "revelation",
+        "release",
+        "confusion",
+        "avoidance"
+      ],
+      "adjectives_reversed": [
+        "revealing",
+        "unresolved",
+        "conflicted",
+        "avoidant"
+      ],
+      "meaning_reversed": "A decision forced after too long avoiding it, or hidden information finally coming to light. It can also mean confusion that lingers even after the standoff ends."
     },
     {
       "name": "Three of Swords",
@@ -740,7 +1234,20 @@
         "heartbroken",
         "grieving"
       ],
-      "meaning": "Heartbreak and sorrow following painful separation. It represents grief, betrayal, or the sting of a difficult truth."
+      "meaning": "Heartbreak and sorrow following painful separation. It represents grief, betrayal, or the sting of a difficult truth.",
+      "nouns_reversed": [
+        "healing",
+        "reconciliation",
+        "release",
+        "recovery"
+      ],
+      "adjectives_reversed": [
+        "healing",
+        "reconciled",
+        "recovering",
+        "relieved"
+      ],
+      "meaning_reversed": "The slow process of healing after heartbreak, or reconciliation following a painful separation. It can also mean releasing grief that has been held onto too long."
     },
     {
       "name": "Four of Swords",
@@ -759,7 +1266,20 @@
         "recuperative",
         "peaceful"
       ],
-      "meaning": "A necessary rest to recover from conflict or strain. It represents quiet withdrawal and recuperation before returning to action."
+      "meaning": "A necessary rest to recover from conflict or strain. It represents quiet withdrawal and recuperation before returning to action.",
+      "nouns_reversed": [
+        "restlessness",
+        "burnout",
+        "resistance",
+        "recovery"
+      ],
+      "adjectives_reversed": [
+        "restless",
+        "burnt out",
+        "reluctant",
+        "overdue"
+      ],
+      "meaning_reversed": "A return to activity before one is truly ready, or restlessness that resists needed rest. It can also mean burnout from ignoring the need to pause."
     },
     {
       "name": "Five of Swords",
@@ -778,7 +1298,20 @@
         "bitter",
         "hollow"
       ],
-      "meaning": "A hollow victory won at the cost of goodwill. It represents conflict, defeat, and the bitterness left behind by discord."
+      "meaning": "A hollow victory won at the cost of goodwill. It represents conflict, defeat, and the bitterness left behind by discord.",
+      "nouns_reversed": [
+        "reconciliation",
+        "resentment",
+        "regret",
+        "recovery"
+      ],
+      "adjectives_reversed": [
+        "regretful",
+        "resentful",
+        "reconciled",
+        "weary"
+      ],
+      "meaning_reversed": "The aftermath of conflict, whether in reconciliation or lingering resentment. It can also mean regret over a victory that cost more than it was worth."
     },
     {
       "name": "Six of Swords",
@@ -797,7 +1330,20 @@
         "hopeful",
         "receding"
       ],
-      "meaning": "A passage away from turmoil toward calmer waters. It represents transition, recovery, and gradual movement toward relief."
+      "meaning": "A passage away from turmoil toward calmer waters. It represents transition, recovery, and gradual movement toward relief.",
+      "nouns_reversed": [
+        "resistance",
+        "delay",
+        "turbulence",
+        "unfinished business"
+      ],
+      "adjectives_reversed": [
+        "stuck",
+        "turbulent",
+        "reluctant",
+        "unresolved"
+      ],
+      "meaning_reversed": "Resistance to leaving a difficult situation behind, or a transition that proves more turbulent than expected. It can also mean unfinished business delaying real progress."
     },
     {
       "name": "Seven of Swords",
@@ -816,7 +1362,20 @@
         "furtive",
         "unreliable"
       ],
-      "meaning": "Cunning strategy or evasive action, not always honest. It represents deception, avoidance, or a solitary plan carried out in secret."
+      "meaning": "Cunning strategy or evasive action, not always honest. It represents deception, avoidance, or a solitary plan carried out in secret.",
+      "nouns_reversed": [
+        "exposure",
+        "confession",
+        "consequence",
+        "betrayal"
+      ],
+      "adjectives_reversed": [
+        "exposed",
+        "caught",
+        "regretful",
+        "guilty"
+      ],
+      "meaning_reversed": "A deception uncovered, or a hidden plan finally exposed. It can also mean confessing to a betrayal of trust and facing its consequences."
     },
     {
       "name": "Eight of Swords",
@@ -835,7 +1394,20 @@
         "paralyzed",
         "constrained"
       ],
-      "meaning": "A feeling of being trapped by circumstances of one's own making. It represents restriction, helplessness, and self-imposed limitation."
+      "meaning": "A feeling of being trapped by circumstances of one's own making. It represents restriction, helplessness, and self-imposed limitation.",
+      "nouns_reversed": [
+        "liberation",
+        "release",
+        "clarity",
+        "empowerment"
+      ],
+      "adjectives_reversed": [
+        "liberated",
+        "empowered",
+        "released",
+        "clear-sighted"
+      ],
+      "meaning_reversed": "Breaking free from self-imposed restriction and finding a way out of what once felt inescapable. It can also mean gaining the clarity needed to release old fears."
     },
     {
       "name": "Nine of Swords",
@@ -854,7 +1426,20 @@
         "fearful",
         "despairing"
       ],
-      "meaning": "Sleepless anguish and anxiety over one's fears. It represents worry and despair, often worse in the mind than in reality."
+      "meaning": "Sleepless anguish and anxiety over one's fears. It represents worry and despair, often worse in the mind than in reality.",
+      "nouns_reversed": [
+        "despair",
+        "hopelessness",
+        "release",
+        "recovery"
+      ],
+      "adjectives_reversed": [
+        "despairing",
+        "hopeless",
+        "relieved",
+        "recovering"
+      ],
+      "meaning_reversed": "Anxiety reaching a breaking point, or the first relief that comes once fears are finally faced. It can also mean deep despair that has become overwhelming."
     },
     {
       "name": "Ten of Swords",
@@ -873,7 +1458,20 @@
         "devastating",
         "exhausted"
       ],
-      "meaning": "A painful ending that closes out a difficult chapter completely. It represents ruin or a rock-bottom moment that precedes renewal."
+      "meaning": "A painful ending that closes out a difficult chapter completely. It represents ruin or a rock-bottom moment that precedes renewal.",
+      "nouns_reversed": [
+        "recovery",
+        "resistance",
+        "renewal",
+        "survival"
+      ],
+      "adjectives_reversed": [
+        "recovering",
+        "resilient",
+        "reluctant",
+        "surviving"
+      ],
+      "meaning_reversed": "The slow recovery that follows a devastating low point, or resistance to accepting that an ending has already occurred. It can also mean survival and the first signs of renewal."
     },
     {
       "name": "Page of Swords",
@@ -892,7 +1490,20 @@
         "curious",
         "sharp-witted"
       ],
-      "meaning": "A watchful, curious mind eager to investigate and observe. It represents vigilance, alertness, and quick, incisive thinking."
+      "meaning": "A watchful, curious mind eager to investigate and observe. It represents vigilance, alertness, and quick, incisive thinking.",
+      "nouns_reversed": [
+        "gossip",
+        "deception",
+        "impulsiveness",
+        "immaturity"
+      ],
+      "adjectives_reversed": [
+        "frivolous",
+        "cunning",
+        "impulsive",
+        "unfocused"
+      ],
+      "meaning_reversed": "Words used carelessly or cunningly, spreading gossip rather than useful insight. It can also mean scattered, impulsive thinking that lacks follow-through."
     },
     {
       "name": "Knight of Swords",
@@ -911,7 +1522,20 @@
         "impulsive",
         "domineering"
       ],
-      "meaning": "Impulsive, assertive action driven by ambition. It represents haste and a headstrong charge toward one's goal."
+      "meaning": "Impulsive, assertive action driven by ambition. It represents haste and a headstrong charge toward one's goal.",
+      "nouns_reversed": [
+        "recklessness",
+        "aggression",
+        "deceit",
+        "impatience"
+      ],
+      "adjectives_reversed": [
+        "reckless",
+        "aggressive",
+        "deceitful",
+        "impatient"
+      ],
+      "meaning_reversed": "Ambition turning reckless or aggressive, pushing forward without regard for consequences. It can also mean deceit or impatience undermining an otherwise capable plan."
     },
     {
       "name": "Queen of Swords",
@@ -930,7 +1554,20 @@
         "independent",
         "incisive"
       ],
-      "meaning": "Sharp, independent perception unclouded by sentiment. It represents clarity, honesty, and incisive judgment."
+      "meaning": "Sharp, independent perception unclouded by sentiment. It represents clarity, honesty, and incisive judgment.",
+      "nouns_reversed": [
+        "coldness",
+        "cruelty",
+        "bitterness",
+        "isolation"
+      ],
+      "adjectives_reversed": [
+        "cold",
+        "cruel",
+        "bitter",
+        "isolated"
+      ],
+      "meaning_reversed": "Honesty turned cold or cruel, using sharp perception to wound rather than clarify. It can also mean bitterness or isolation following a painful experience."
     },
     {
       "name": "King of Swords",
@@ -949,7 +1586,20 @@
         "cautious",
         "logical"
       ],
-      "meaning": "Authority grounded in reason, logic, and clear judgment. It represents intellectual mastery and a fair, if exacting, exercise of power."
+      "meaning": "Authority grounded in reason, logic, and clear judgment. It represents intellectual mastery and a fair, if exacting, exercise of power.",
+      "nouns_reversed": [
+        "harshness",
+        "manipulation",
+        "rigidity",
+        "cruelty"
+      ],
+      "adjectives_reversed": [
+        "harsh",
+        "manipulative",
+        "rigid",
+        "cold-blooded"
+      ],
+      "meaning_reversed": "Authority and intellect turned harsh or manipulative, using logic to justify cruelty. It can also mean rigid thinking that refuses any perspective but its own."
     },
     {
       "name": "Ace of Wands",
@@ -968,7 +1618,20 @@
         "forceful",
         "initiating"
       ],
-      "meaning": "A burst of creative energy and new initiative. It represents inspiration, vigor, and the spark that begins an enterprise."
+      "meaning": "A burst of creative energy and new initiative. It represents inspiration, vigor, and the spark that begins an enterprise.",
+      "nouns_reversed": [
+        "delay",
+        "stagnation",
+        "hesitation",
+        "frustration"
+      ],
+      "adjectives_reversed": [
+        "delayed",
+        "stagnant",
+        "hesitant",
+        "frustrated"
+      ],
+      "meaning_reversed": "A spark of inspiration that has yet to catch, delayed by hesitation or lack of direction. It can also mean frustration at energy with nowhere to go."
     },
     {
       "name": "Two of Wands",
@@ -987,7 +1650,20 @@
         "restless",
         "resolute"
       ],
-      "meaning": "Ambition weighing future possibilities before taking bold action. It represents dominion, planning, and the restless pull toward greater horizons."
+      "meaning": "Ambition weighing future possibilities before taking bold action. It represents dominion, planning, and the restless pull toward greater horizons.",
+      "nouns_reversed": [
+        "obstinacy",
+        "restlessness",
+        "fear",
+        "indecision"
+      ],
+      "adjectives_reversed": [
+        "obstinate",
+        "restless",
+        "fearful",
+        "indecisive"
+      ],
+      "meaning_reversed": "Fear of the unknown holding back a bold decision, or restlessness that never settles on a direction. It can also mean stubbornness that blocks reasonable compromise."
     },
     {
       "name": "Three of Wands",
@@ -1006,7 +1682,20 @@
         "determined",
         "confident"
       ],
-      "meaning": "Foresight and established strength as early efforts begin to bear fruit. It represents confident leadership and expanding opportunity."
+      "meaning": "Foresight and established strength as early efforts begin to bear fruit. It represents confident leadership and expanding opportunity.",
+      "nouns_reversed": [
+        "delay",
+        "arrogance",
+        "obstacle",
+        "shortsightedness"
+      ],
+      "adjectives_reversed": [
+        "arrogant",
+        "delayed",
+        "shortsighted",
+        "insolent"
+      ],
+      "meaning_reversed": "Plans delayed by unforeseen obstacles, or overconfidence that overlooks important details. It can also mean a lack of foresight undermining an otherwise promising venture."
     },
     {
       "name": "Four of Wands",
@@ -1025,7 +1714,20 @@
         "settled",
         "accomplished"
       ],
-      "meaning": "Joyful celebration marking a stable achievement or homecoming. It represents harmony, community, and a settled sense of accomplishment."
+      "meaning": "Joyful celebration marking a stable achievement or homecoming. It represents harmony, community, and a settled sense of accomplishment.",
+      "nouns_reversed": [
+        "instability",
+        "disruption",
+        "transition",
+        "discord"
+      ],
+      "adjectives_reversed": [
+        "unsettled",
+        "disrupted",
+        "transitional",
+        "discordant"
+      ],
+      "meaning_reversed": "A celebration disrupted, or instability at home unsettling what should be a peaceful foundation. It can also mean a transition that has not yet found solid ground."
     },
     {
       "name": "Five of Wands",
@@ -1044,7 +1746,20 @@
         "chaotic",
         "combative"
       ],
-      "meaning": "Competitive struggle and clashing wills vying for advantage. It represents rivalry, conflict, and the chaotic energy of competition."
+      "meaning": "Competitive struggle and clashing wills vying for advantage. It represents rivalry, conflict, and the chaotic energy of competition.",
+      "nouns_reversed": [
+        "avoidance",
+        "resolution",
+        "internal conflict",
+        "tension"
+      ],
+      "adjectives_reversed": [
+        "avoidant",
+        "tense",
+        "conflicted",
+        "resolving"
+      ],
+      "meaning_reversed": "Conflict avoided rather than resolved, or tension that simmers beneath the surface. It can also mean an inner struggle between competing desires."
     },
     {
       "name": "Six of Wands",
@@ -1063,7 +1778,20 @@
         "celebrated",
         "proud"
       ],
-      "meaning": "Public recognition following a hard-won victory. It represents triumph, pride, and the celebration of success."
+      "meaning": "Public recognition following a hard-won victory. It represents triumph, pride, and the celebration of success.",
+      "nouns_reversed": [
+        "self-doubt",
+        "delay",
+        "arrogance",
+        "setback"
+      ],
+      "adjectives_reversed": [
+        "doubtful",
+        "delayed",
+        "arrogant",
+        "unrecognized"
+      ],
+      "meaning_reversed": "Recognition delayed or success undermined by arrogance. It can also mean self-doubt creeping in despite genuine achievement."
     },
     {
       "name": "Seven of Wands",
@@ -1082,7 +1810,20 @@
         "persistent",
         "embattled"
       ],
-      "meaning": "Defiant perseverance in the face of opposition. It represents courage under pressure and the determination to hold one's ground."
+      "meaning": "Defiant perseverance in the face of opposition. It represents courage under pressure and the determination to hold one's ground.",
+      "nouns_reversed": [
+        "exhaustion",
+        "vulnerability",
+        "capitulation",
+        "overwhelm"
+      ],
+      "adjectives_reversed": [
+        "exhausted",
+        "vulnerable",
+        "overwhelmed",
+        "defensive"
+      ],
+      "meaning_reversed": "Feeling overwhelmed by opposition and questioning whether the fight is still worth it. It can also mean vulnerability from defenses that have finally worn thin."
     },
     {
       "name": "Eight of Wands",
@@ -1101,7 +1842,20 @@
         "sudden",
         "fleeting"
       ],
-      "meaning": "Rapid movement and swift, unstoppable momentum. It represents speed, sudden progress, and events unfolding quickly."
+      "meaning": "Rapid movement and swift, unstoppable momentum. It represents speed, sudden progress, and events unfolding quickly.",
+      "nouns_reversed": [
+        "delay",
+        "frustration",
+        "miscommunication",
+        "chaos"
+      ],
+      "adjectives_reversed": [
+        "delayed",
+        "frustrating",
+        "chaotic",
+        "scattered"
+      ],
+      "meaning_reversed": "Momentum stalling just as things seemed to be moving quickly, causing frustration and delay. It can also mean scattered energy or miscommunication slowing progress."
     },
     {
       "name": "Nine of Wands",
@@ -1120,7 +1874,20 @@
         "steadfast",
         "guarded"
       ],
-      "meaning": "Weary but resilient vigilance after enduring past battles. It represents guarded endurance and the strength to keep defending what matters."
+      "meaning": "Weary but resilient vigilance after enduring past battles. It represents guarded endurance and the strength to keep defending what matters.",
+      "nouns_reversed": [
+        "exhaustion",
+        "paranoia",
+        "defensiveness",
+        "burnout"
+      ],
+      "adjectives_reversed": [
+        "exhausted",
+        "paranoid",
+        "defensive",
+        "burnt-out"
+      ],
+      "meaning_reversed": "Exhaustion after prolonged struggle, with defensiveness tipping into paranoia. It can also mean the temptation to give up just short of the finish."
     },
     {
       "name": "Ten of Wands",
@@ -1139,7 +1906,20 @@
         "weary",
         "strained"
       ],
-      "meaning": "The heavy burden of responsibilities carried alone. It represents strain, overload, and the exhaustion of shouldering too much."
+      "meaning": "The heavy burden of responsibilities carried alone. It represents strain, overload, and the exhaustion of shouldering too much.",
+      "nouns_reversed": [
+        "release",
+        "delegation",
+        "burnout",
+        "relief"
+      ],
+      "adjectives_reversed": [
+        "relieved",
+        "delegating",
+        "burnt-out",
+        "unburdened"
+      ],
+      "meaning_reversed": "Finally releasing or delegating a burden that has grown too heavy to carry alone. It can also mean burnout from having tried to shoulder everything single-handedly."
     },
     {
       "name": "Page of Wands",
@@ -1158,7 +1938,20 @@
         "bold",
         "restless"
       ],
-      "meaning": "An enthusiastic messenger bursting with restless curiosity. It represents bold new ideas and eager, impulsive ambition."
+      "meaning": "An enthusiastic messenger bursting with restless curiosity. It represents bold new ideas and eager, impulsive ambition.",
+      "nouns_reversed": [
+        "impulsiveness",
+        "instability",
+        "immaturity",
+        "restlessness"
+      ],
+      "adjectives_reversed": [
+        "impulsive",
+        "unstable",
+        "immature",
+        "restless"
+      ],
+      "meaning_reversed": "Enthusiasm without follow-through, or ideas that scatter before they can take shape. It can also mean impulsiveness that has yet to mature into real commitment."
     },
     {
       "name": "Knight of Wands",
@@ -1177,7 +1970,20 @@
         "fiery",
         "reckless"
       ],
-      "meaning": "A fiery, impetuous adventurer charging toward passion and action. It represents impulsive energy and a reckless zest for new pursuits."
+      "meaning": "A fiery, impetuous adventurer charging toward passion and action. It represents impulsive energy and a reckless zest for new pursuits.",
+      "nouns_reversed": [
+        "recklessness",
+        "impatience",
+        "aggression",
+        "instability"
+      ],
+      "adjectives_reversed": [
+        "reckless",
+        "impatient",
+        "aggressive",
+        "unpredictable"
+      ],
+      "meaning_reversed": "Passion that has curdled into recklessness or impatience, acting before thinking things through. It can also mean plans that fizzle out as quickly as they began."
     },
     {
       "name": "Queen of Wands",
@@ -1196,7 +2002,20 @@
         "confident",
         "resolute"
       ],
-      "meaning": "Warm, magnetic confidence that draws others in. It represents determined self-assurance and generous, radiant leadership."
+      "meaning": "Warm, magnetic confidence that draws others in. It represents determined self-assurance and generous, radiant leadership.",
+      "nouns_reversed": [
+        "jealousy",
+        "domineering",
+        "insecurity",
+        "obstinacy"
+      ],
+      "adjectives_reversed": [
+        "jealous",
+        "domineering",
+        "insecure",
+        "obstinate"
+      ],
+      "meaning_reversed": "Confidence turning into domineering control or jealousy. It can also mean insecurity hidden beneath a bold exterior."
     },
     {
       "name": "King of Wands",
@@ -1215,7 +2034,20 @@
         "ardent",
         "generous"
       ],
-      "meaning": "Charismatic, visionary authority that inspires others to act. It represents bold leadership and ardent, generous command."
+      "meaning": "Charismatic, visionary authority that inspires others to act. It represents bold leadership and ardent, generous command.",
+      "nouns_reversed": [
+        "intolerance",
+        "impulsiveness",
+        "arrogance",
+        "ruthlessness"
+      ],
+      "adjectives_reversed": [
+        "intolerant",
+        "impulsive",
+        "arrogant",
+        "ruthless"
+      ],
+      "meaning_reversed": "Leadership turning intolerant or ruthless, demanding results without patience for others. It can also mean impulsive decisions made from unchecked pride."
     },
     {
       "name": "Ace of Pentacles",
@@ -1234,7 +2066,20 @@
         "grounded",
         "promising"
       ],
-      "meaning": "A tangible new opportunity for prosperity and material growth. It represents a solid foundation and the promise of abundance to come."
+      "meaning": "A tangible new opportunity for prosperity and material growth. It represents a solid foundation and the promise of abundance to come.",
+      "nouns_reversed": [
+        "delay",
+        "missed opportunity",
+        "instability",
+        "scarcity"
+      ],
+      "adjectives_reversed": [
+        "delayed",
+        "unstable",
+        "scarce",
+        "missed"
+      ],
+      "meaning_reversed": "An opportunity delayed or missed through poor planning or hesitation. It can also mean instability where a solid foundation was expected."
     },
     {
       "name": "Two of Pentacles",
@@ -1253,7 +2098,20 @@
         "fluctuating",
         "versatile"
       ],
-      "meaning": "Juggling shifting priorities with adaptable balance. It represents fluctuation, resourcefulness, and the ability to manage competing demands."
+      "meaning": "Juggling shifting priorities with adaptable balance. It represents fluctuation, resourcefulness, and the ability to manage competing demands.",
+      "nouns_reversed": [
+        "overwhelm",
+        "disorganization",
+        "imbalance",
+        "overcommitment"
+      ],
+      "adjectives_reversed": [
+        "overwhelmed",
+        "disorganized",
+        "unreliable",
+        "overextended"
+      ],
+      "meaning_reversed": "Juggling too much at once until something inevitably slips. It can also mean disorganization or overcommitment throwing everything off balance."
     },
     {
       "name": "Three of Pentacles",
@@ -1272,7 +2130,20 @@
         "diligent",
         "constructive"
       ],
-      "meaning": "Skilled collaboration building something of lasting quality. It represents craftsmanship, teamwork, and diligent construction toward a shared goal."
+      "meaning": "Skilled collaboration building something of lasting quality. It represents craftsmanship, teamwork, and diligent construction toward a shared goal.",
+      "nouns_reversed": [
+        "misalignment",
+        "mediocrity",
+        "disorganization",
+        "conflict"
+      ],
+      "adjectives_reversed": [
+        "misaligned",
+        "mediocre",
+        "disorganized",
+        "uncoordinated"
+      ],
+      "meaning_reversed": "Collaboration undermined by misaligned goals or a lack of coordination. It can also mean mediocre effort falling short of a shared standard."
     },
     {
       "name": "Four of Pentacles",
@@ -1291,7 +2162,20 @@
         "guarded",
         "conservative"
       ],
-      "meaning": "A cautious grip on possessions and security. It represents control, conservatism, and a guarded reluctance to let go."
+      "meaning": "A cautious grip on possessions and security. It represents control, conservatism, and a guarded reluctance to let go.",
+      "nouns_reversed": [
+        "greed",
+        "insecurity",
+        "release",
+        "stinginess"
+      ],
+      "adjectives_reversed": [
+        "greedy",
+        "insecure",
+        "stingy",
+        "possessive"
+      ],
+      "meaning_reversed": "Holding on too tightly out of fear, or the slow release of control that comes with letting go. It can also mean insecurity driving stinginess or greed."
     },
     {
       "name": "Five of Pentacles",
@@ -1310,7 +2194,20 @@
         "struggling",
         "isolated"
       ],
-      "meaning": "Hardship and isolation felt most keenly when help seems out of reach. It represents financial worry, struggle, and a sense of being left out in the cold."
+      "meaning": "Hardship and isolation felt most keenly when help seems out of reach. It represents financial worry, struggle, and a sense of being left out in the cold.",
+      "nouns_reversed": [
+        "recovery",
+        "assistance",
+        "relief",
+        "renewal"
+      ],
+      "adjectives_reversed": [
+        "recovering",
+        "relieved",
+        "supported",
+        "improving"
+      ],
+      "meaning_reversed": "The first signs of recovery after a period of hardship, with help finally arriving. It can also mean lingering financial worry even as things begin to improve."
     },
     {
       "name": "Six of Pentacles",
@@ -1329,7 +2226,20 @@
         "fair",
         "supportive"
       ],
-      "meaning": "Generosity flowing between those with plenty and those in need. It represents charity, fairness, and balanced material support."
+      "meaning": "Generosity flowing between those with plenty and those in need. It represents charity, fairness, and balanced material support.",
+      "nouns_reversed": [
+        "imbalance",
+        "debt",
+        "dependency",
+        "conditions"
+      ],
+      "adjectives_reversed": [
+        "unequal",
+        "conditional",
+        "indebted",
+        "dependent"
+      ],
+      "meaning_reversed": "Generosity given with strings attached, or an imbalance of power between giver and receiver. It can also mean debt or dependency that complicates the exchange."
     },
     {
       "name": "Seven of Pentacles",
@@ -1348,7 +2258,20 @@
         "laborious",
         "uncertain"
       ],
-      "meaning": "Patient assessment of effort invested, waiting to see if it will pay off. It represents delayed reward and careful evaluation of one's progress."
+      "meaning": "Patient assessment of effort invested, waiting to see if it will pay off. It represents delayed reward and careful evaluation of one's progress.",
+      "nouns_reversed": [
+        "impatience",
+        "wasted effort",
+        "frustration",
+        "shortsightedness"
+      ],
+      "adjectives_reversed": [
+        "impatient",
+        "frustrated",
+        "shortsighted",
+        "unproductive"
+      ],
+      "meaning_reversed": "Impatience with slow progress, or effort invested that fails to pay off as hoped. It can also mean losing sight of the long-term goal in favor of quick results."
     },
     {
       "name": "Eight of Pentacles",
@@ -1367,7 +2290,20 @@
         "industrious",
         "studious"
       ],
-      "meaning": "Diligent craftsmanship refined through steady, focused practice. It represents skill-building, industry, and dedication to one's work."
+      "meaning": "Diligent craftsmanship refined through steady, focused practice. It represents skill-building, industry, and dedication to one's work.",
+      "nouns_reversed": [
+        "perfectionism",
+        "distraction",
+        "stagnation",
+        "shortcuts"
+      ],
+      "adjectives_reversed": [
+        "perfectionistic",
+        "distracted",
+        "stagnant",
+        "careless"
+      ],
+      "meaning_reversed": "Skill undermined by perfectionism or a lack of focus. It can also mean cutting corners on work that deserves careful attention."
     },
     {
       "name": "Nine of Pentacles",
@@ -1386,7 +2322,20 @@
         "prosperous",
         "content"
       ],
-      "meaning": "Self-sufficient abundance enjoyed in refined solitude. It represents independence, comfort, and the rewards of careful discipline."
+      "meaning": "Self-sufficient abundance enjoyed in refined solitude. It represents independence, comfort, and the rewards of careful discipline.",
+      "nouns_reversed": [
+        "overextension",
+        "setback",
+        "dependency",
+        "isolation"
+      ],
+      "adjectives_reversed": [
+        "overextended",
+        "dependent",
+        "isolated",
+        "insecure"
+      ],
+      "meaning_reversed": "Self-sufficiency undermined by overextension or an unexpected setback. It can also mean isolation that has tipped from solitude into loneliness."
     },
     {
       "name": "Ten of Pentacles",
@@ -1405,7 +2354,20 @@
         "enduring",
         "traditional"
       ],
-      "meaning": "Lasting wealth and legacy passed down through family and tradition. It represents long-term security and the culmination of material success."
+      "meaning": "Lasting wealth and legacy passed down through family and tradition. It represents long-term security and the culmination of material success.",
+      "nouns_reversed": [
+        "instability",
+        "dispute",
+        "loss",
+        "fragmentation"
+      ],
+      "adjectives_reversed": [
+        "unstable",
+        "fragmented",
+        "disputed",
+        "insecure"
+      ],
+      "meaning_reversed": "Family conflict over money or legacy, or financial instability threatening what was built. It can also mean a fracture in tradition or long-term security."
     },
     {
       "name": "Page of Pentacles",
@@ -1424,7 +2386,20 @@
         "practical",
         "grounded"
       ],
-      "meaning": "A studious, practical apprentice pursuing a new opportunity. It represents diligence, grounded ambition, and careful planning for the future."
+      "meaning": "A studious, practical apprentice pursuing a new opportunity. It represents diligence, grounded ambition, and careful planning for the future.",
+      "nouns_reversed": [
+        "procrastination",
+        "carelessness",
+        "immaturity",
+        "distraction"
+      ],
+      "adjectives_reversed": [
+        "procrastinating",
+        "careless",
+        "immature",
+        "distracted"
+      ],
+      "meaning_reversed": "Ambition without follow-through, or plans left unfinished through carelessness. It can also mean news of a practical or financial setback."
     },
     {
       "name": "Knight of Pentacles",
@@ -1443,7 +2418,20 @@
         "patient",
         "steady"
       ],
-      "meaning": "Steady, methodical progress achieved through patient routine. It represents reliability and a slow but sure commitment to duty."
+      "meaning": "Steady, methodical progress achieved through patient routine. It represents reliability and a slow but sure commitment to duty.",
+      "nouns_reversed": [
+        "stagnation",
+        "stubbornness",
+        "boredom",
+        "greed"
+      ],
+      "adjectives_reversed": [
+        "stagnant",
+        "stubborn",
+        "unmotivated",
+        "greedy"
+      ],
+      "meaning_reversed": "Routine hardened into stagnation, with reliability tipping into stubborn resistance to change. It can also mean boredom or greed dulling what was once careful diligence."
     },
     {
       "name": "Queen of Pentacles",
@@ -1462,7 +2450,20 @@
         "warm",
         "generous"
       ],
-      "meaning": "Warm, practical nurturing that provides comfort and abundance. It represents grounded generosity and care for both home and resources."
+      "meaning": "Warm, practical nurturing that provides comfort and abundance. It represents grounded generosity and care for both home and resources.",
+      "nouns_reversed": [
+        "neglect",
+        "insecurity",
+        "imbalance",
+        "overwork"
+      ],
+      "adjectives_reversed": [
+        "neglectful",
+        "insecure",
+        "overworked",
+        "imbalanced"
+      ],
+      "meaning_reversed": "Self-care neglected while caring for everyone else, or financial and emotional imbalance at home. It can also mean insecurity about one's ability to provide."
     },
     {
       "name": "King of Pentacles",
@@ -1481,7 +2482,20 @@
         "prosperous",
         "disciplined"
       ],
-      "meaning": "Reliable, disciplined mastery over material affairs. It represents steady prosperity and the calm authority of sustained achievement."
+      "meaning": "Reliable, disciplined mastery over material affairs. It represents steady prosperity and the calm authority of sustained achievement.",
+      "nouns_reversed": [
+        "greed",
+        "stubbornness",
+        "materialism",
+        "rigidity"
+      ],
+      "adjectives_reversed": [
+        "greedy",
+        "stubborn",
+        "materialistic",
+        "rigid"
+      ],
+      "meaning_reversed": "Stability curdled into greed or rigid stubbornness. It can also mean an overly materialistic outlook that loses sight of anything beyond wealth."
     }
   ]
 }
