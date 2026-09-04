@@ -90,21 +90,16 @@ def shuffle() -> list[TarotCard]:
 
 def inspect(card: TarotCard) -> None:
     print(f"""
-    name: {card["name"]}
-    number: {card["number"]}
-    arcana: {card["arcana"]}
-    suit: {card["suit"]}
-    nouns: {card["nouns"]}
-    adjectives: {card["adjectives"]}
-    meaning: {card["meaning"]}
-    nouns_reversed: {card["nouns_reversed"]}
-    adjectives_reversed: {card["adjectives_reversed"]}
-    meaning_reversed: {card["meaning_reversed"]}""")
-
-
-def put_back(deck: list[TarotCard], card: TarotCard) -> list[TarotCard]:
-    deck.append(card)
-    return deck
+    [bold]name:[/bold] {card["name"]}
+    [bold]number:[/bold] {card["number"]}
+    [bold]arcana:[/bold] {card["arcana"]}
+    [bold]suit:[/bold] {card["suit"]}
+    [bold]nouns:[/bold] {card["nouns"]}
+    [bold]adjectives:[/bold] {card["adjectives"]}
+    [bold]meaning:[/bold] {card["meaning"]}
+    [bold]nouns_reversed:[/bold] {card["nouns_reversed"]}
+    [bold]adjectives_reversed:[/bold] {card["adjectives_reversed"]}
+    [bold]meaning_reversed:[/bold] {card["meaning_reversed"]}""")
 
 
 # Drawing a series of cards
@@ -113,9 +108,8 @@ def series(deck: list[TarotCard], n: int) -> None:
         input()
         deck, card = draw(deck)
         # Assign reversed
-        reversed: str = random.choice(["", "Reversed"])
-        card_name: str = f"{card['name']} {reversed}"
-        print(card_name)
+        is_reversed: bool = random.choice((True, False))
+        print_card(card, is_reversed)
 
 
 # Fixed card per day
@@ -131,3 +125,32 @@ def daily() -> TarotCard:
     t = 1000 * time.time()
     random.seed(int(t) % 2**32)
     return selected_card
+
+
+def print_card(card: TarotCard, is_reversed: bool = False) -> None:
+    match card["suit"]:
+        case "Cups":
+            if not is_reversed:
+                print(f"[red]{card['name']}")
+            else:
+                print(f"[red]{card['name']} Reversed")
+        case "Pentacles":
+            if not is_reversed:
+                print(f"[green]{card['name']}")
+            else:
+                print(f"[green]{card['name']} Reversed")
+        case "Swords":
+            if not is_reversed:
+                print(f"[blue]{card['name']}")
+            else:
+                print(f"[blue]{card['name']} Reversed")
+        case "Wands":
+            if not is_reversed:
+                print(f"[yellow]{card['name']}")
+            else:
+                print(f"[yellow]{card['name']} Reversed")
+        case _:
+            if not is_reversed:
+                print(f"[magenta]{card['name']}")
+            else:
+                print(f"[magenta]{card['name']} Reversed")

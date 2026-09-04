@@ -30,8 +30,8 @@ def main():
                             a.series(deck, int(user_input[1]))
                             continue
                     deck, card = a.draw(deck)
-                    reversed: str = choice(["", "Reversed"])
-                    print(f"{card['name']} {reversed}")
+                    is_reversed: bool = choice([True, False])
+                    a.print_card(card, is_reversed)
 
                 case "deck":
                     print(
@@ -48,7 +48,7 @@ def main():
                         continue
                     print("[italic]Drawn cards:")
                     for card in a.drawn_cards:
-                        print(f"[cyan]{card['name']}")
+                        a.print_card(card)
 
                 case "inspect":
                     if len(user_input) < 2:
@@ -68,7 +68,7 @@ def main():
 
                 case "daily":
                     card: a.TarotCard = a.daily()
-                    print(f"[bold]{card['name']}")
+                    a.print_card(card)
                     print(card["meaning"])
 
                 case "q" | "quit":
