@@ -1,13 +1,19 @@
 import actions as a
 from random import choice
 from rich import print
+from rich.align import Align
+from rich.console import Console
+
+console = Console()
 
 
 def main():
     try:
         deck: list[a.TarotCard] = a.create_deck()
-        print(
-            f"[bold]Welcome to the tarot_cli![/bold]\nType h or help to {a.commands['help | h']}"
+        console.print(
+            Align.center(
+                f"[bold cyan]Welcome to the tarot_cli![/bold cyan]\n[italic]Type h or help to {a.commands['help | h']}[/italic]"
+            )
         )
         while True:
             user_input = input("tarot_cli> ")
@@ -50,11 +56,31 @@ def main():
                     for card in a.drawn_cards:
                         a.print_card(card)
 
+                case "meaning":
+                    if len(user_input) < 2:
+                        print("Please specify a card name")
+                        continue
+                    if user_input[-1] == "reversed":
+                        card_name: list[str] = user_input[1:-1]
+                    else:
+                        card_name: list[str] = user_input[1:]
+                    deck: list[a.TarotCard] = a.create_deck()
+                    for card in deck:
+                        if card["name"].lower().split() == card_name:
+                            if user_input[-1] == "reversed":
+                                print(card["meaning_reversed"])
+                                break
+                            else:
+                                print(card["meaning"])
+                                break
+                    else:
+                        print("[red]Invalid card name")
+
                 case "inspect":
                     if len(user_input) < 2:
                         print("Please specify a card name")
                         continue
-                    if user_input[-1] == "Reversed":
+                    if user_input[-1] == "reversed":
                         card_name: list[str] = user_input[1:-1]
                     else:
                         card_name: list[str] = user_input[1:]
@@ -66,10 +92,20 @@ def main():
                     else:
                         print("[red]Invalid card name")
 
+                case "reading":
+                    if len(user_input) < 2:
+                        deck = a.reading(deck, 1)
+                    if len(user_input) > 1:
+                        if user_input[1].isdigit():
+                            if len(deck) < int(user_input[1]):
+                                print("[red]Not enough cards in the deck!")
+                                continue
+                            deck = a.reading(deck, int(user_input[1]))
+
                 case "daily":
-                    card: a.TarotCard = a.daily()
+                    card, reading = a.daily()
                     a.print_card(card)
-                    print(card["meaning"])
+                    print(reading)
 
                 case "q" | "quit":
                     print("[cyan]The cards wait for another time...")
