@@ -1,2 +1,17 @@
-# Python-generated files
-__pycache__/
+.python-version
+.pytest_cache
+.ruff_cache
+__pycache__
+*.pyc
+*.pyo
+build/
+dist/
+*.egg-info
+.eggs
+node_modules
+venv/
+.venv
+.env
+.env.*
+*.json
+!cards/tarot.json
